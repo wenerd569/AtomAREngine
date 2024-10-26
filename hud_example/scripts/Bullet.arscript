@@ -1,0 +1,55 @@
+extends ARFillRect
+
+const BASE_SIZE: float = 64.0
+
+var pos_x: float = 0.0
+var pos_y: float = 0.0
+var pos_z: float = 0.0
+
+var velocity_x: float = 0.0
+var velocity_y: float = 0.0
+var velocity_z: float = 0.0
+
+var stopped: bool = false
+
+var label
+
+
+func shoot(angle_x: float, angle_z: float, power: float) -> void:
+	pos_x = 0.0
+	pos_y = 1.0
+	pos_z = 1.0
+	velocity_x = sin(angle_x) * power
+	velocity_y = sin(angle_z) * power
+	velocity_z = cos(angle_z) * power
+	stopped = false
+
+
+func init() -> void:
+	label = get_ar_element("ARLabel")
+
+
+func update_process(delta: float) -> void:
+	if pos_y >= 0.1:
+		pos_x += velocity_x * delta * 2
+		pos_y += velocity_y * delta * 2
+		pos_z += velocity_z * delta * 2
+		
+		velocity_y -= 20 * delta
+		set_bullet()
+	else:
+		stopped = true
+
+
+func set_bullet() -> void:
+	var bullet_size: int = 10 * BASE_SIZE * atan(BASE_SIZE / (2 * pos_z))
+	#api("out", "Size: " + str(bullet_size))
+	self.width = bullet_size
+	self.height = bullet_size
+	self.border_radius = bullet_size / 2.0
+	self.border_width = bullet_size / 8.0
+	
+	self.top = 600 - pos_y - bullet_size / 2.0
+	self.left = 910 + pos_x - bullet_size / 2.0
+	label.text = str(str(pos_z) + " m")
+	#api("out", "Distance: " + str(pos_z) + "X: " + str(pos_x) + "Y: " + str(pos_y))

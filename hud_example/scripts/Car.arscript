@@ -1,0 +1,4 @@
+extends ARFillRect
+
+
+var speed:float = 1

@@ -323,24 +323,77 @@
 					],
 					[
 						"top",
-						291.068787
+						254.371552
 					],
 					[
 						"left",
-						800.276367
+						755.474426
 					],
 					[
 						"width",
-						134.613342
+						134.613281
 					],
 					[
 						"height",
-						158.132996
+						224.42215
 					],
 					[
 						"anchors",
 						16
+					],
+					[
+						"ar_script",
+						"scripts/Car.arscript"
+					],
+					[
+						"panel_color",
+						"00ffffff"
 					]
+				],
+				"children": [
+					{
+						"class": "ARImage",
+						"properties": [
+							[
+								"name",
+								"ARImage"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								4.201835
+							],
+							[
+								"left",
+								-56.977711
+							],
+							[
+								"width",
+								237.373566
+							],
+							[
+								"height",
+								210.468353
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"image",
+								"images/game.png"
+							]
+						]
+					}
 				]
 			},
 			{

@@ -50,265 +50,6 @@
 				"properties": [
 					[
 						"name",
-						"Target"
-					],
-					[
-						"collapsed_in_tree",
-						false
-					],
-					[
-						"collapsed_in_tree_flags",
-						{
-							"is_visible": false
-						}
-					],
-					[
-						"top",
-						76.370415
-					],
-					[
-						"left",
-						-99.882057
-					],
-					[
-						"width",
-						120.000046
-					],
-					[
-						"height",
-						120.000206
-					],
-					[
-						"anchors",
-						16
-					],
-					[
-						"ar_script",
-						"scripts/Target.arscript"
-					],
-					[
-						"panel_color",
-						"ff000000"
-					],
-					[
-						"border_color",
-						"ffbe00dd"
-					],
-					[
-						"border_width",
-						15
-					],
-					[
-						"border_radius",
-						60
-					]
-				],
-				"children": [
-					{
-						"class": "ARLabel",
-						"properties": [
-							[
-								"name",
-								"ARLabel"
-							],
-							[
-								"collapsed_in_tree",
-								false
-							],
-							[
-								"collapsed_in_tree_flags",
-								{
-									"is_visible": false
-								}
-							],
-							[
-								"top",
-								-62.897552
-							],
-							[
-								"left",
-								5.469353
-							],
-							[
-								"width",
-								232
-							],
-							[
-								"height",
-								52
-							],
-							[
-								"anchors",
-								16
-							],
-							[
-								"font_size",
-								50
-							]
-						]
-					}
-				]
-			},
-			{
-				"class": "ARFillRect",
-				"properties": [
-					[
-						"name",
-						"Bullet"
-					],
-					[
-						"collapsed_in_tree",
-						true
-					],
-					[
-						"collapsed_in_tree_flags",
-						{
-							"is_visible": false
-						}
-					],
-					[
-						"top",
-						314.838013
-					],
-					[
-						"left",
-						-268.174194
-					],
-					[
-						"width",
-						64
-					],
-					[
-						"height",
-						64
-					],
-					[
-						"anchors",
-						16
-					],
-					[
-						"ar_script",
-						"scripts/Bullet.arscript"
-					],
-					[
-						"panel_color",
-						"ff00dddd"
-					],
-					[
-						"border_color",
-						"ff00dddd"
-					],
-					[
-						"border_width",
-						6
-					],
-					[
-						"border_radius",
-						32
-					]
-				],
-				"children": [
-					{
-						"class": "ARLabel",
-						"properties": [
-							[
-								"name",
-								"ARLabel"
-							],
-							[
-								"collapsed_in_tree",
-								false
-							],
-							[
-								"collapsed_in_tree_flags",
-								{
-									"is_visible": false
-								}
-							],
-							[
-								"top",
-								175.402359
-							],
-							[
-								"left",
-								-198.41272
-							],
-							[
-								"width",
-								462
-							],
-							[
-								"height",
-								101.000046
-							],
-							[
-								"anchors",
-								16
-							],
-							[
-								"font_size",
-								100
-							]
-						]
-					}
-				]
-			},
-			{
-				"class": "ARLabel",
-				"properties": [
-					[
-						"name",
-						"ARLabel"
-					],
-					[
-						"collapsed_in_tree",
-						false
-					],
-					[
-						"collapsed_in_tree_flags",
-						{
-							"is_visible": false
-						}
-					],
-					[
-						"top",
-						6.153168
-					],
-					[
-						"left",
-						444.726746
-					],
-					[
-						"width",
-						925.001038
-					],
-					[
-						"height",
-						197
-					],
-					[
-						"anchors",
-						16
-					],
-					[
-						"self_paint",
-						"ffdd8500"
-					],
-					[
-						"text",
-						""
-					],
-					[
-						"font_size",
-						200
-					]
-				]
-			},
-			{
-				"class": "ARFillRect",
-				"properties": [
-					[
-						"name",
 						"Car"
 					],
 					[
@@ -397,11 +138,11 @@
 				]
 			},
 			{
-				"class": "ARFillRect",
+				"class": "ARLabel",
 				"properties": [
 					[
 						"name",
-						"Zombie"
+						"ARLabel"
 					],
 					[
 						"collapsed_in_tree",
@@ -415,19 +156,62 @@
 					],
 					[
 						"top",
-						165.885803
+						6.153168
 					],
 					[
 						"left",
-						299.073242
+						444.726746
 					],
 					[
 						"width",
-						64.000092
+						925.001038
 					],
 					[
 						"height",
-						125.929565
+						197
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"self_paint",
+						"ffdd8500"
+					],
+					[
+						"text",
+						""
+					],
+					[
+						"font_size",
+						200
+					]
+				]
+			},
+			{
+				"class": "ARGroup",
+				"properties": [
+					[
+						"name",
+						"Zombies"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"width",
+						128
+					],
+					[
+						"height",
+						128
 					],
 					[
 						"anchors",
@@ -435,8 +219,53 @@
 					],
 					[
 						"ar_script",
-						"scripts/Zombie.arscript"
+						"scripts/Zombies.arscript"
 					]
+				],
+				"children": [
+					{
+						"class": "ARFillRect",
+						"properties": [
+							[
+								"name",
+								"Zombie"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								594.764648
+							],
+							[
+								"left",
+								300.838654
+							],
+							[
+								"width",
+								64.000183
+							],
+							[
+								"height",
+								125.929565
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"ar_script",
+								"scripts/Zombie.arscript"
+							]
+						]
+					}
 				]
 			}
 		]

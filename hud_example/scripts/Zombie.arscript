@@ -1,15 +1,21 @@
 extends ARFillRect
 
-var car
+var target
+var is_live:bool = false
 
+var speed = 2
 
-func start():
-	car = get_ar_element("Main/Car")
-	api("out", car)
+func init(car, start_coord ):
+	self.top =  start_coord.y
+	self.left =  start_coord.x
+	visibility = true
+	is_live = true
+	target = car
+	api("out", self)
 
 func update_process(delta: float) -> void:
-	var dir:Vector2 = car. get_global_position( ) - self.get_global_position( )
-	dir = dir.normalized( )
-	
-	self.top += dir.y+car.speed
-	self.left += dir.x
+	if is_live:
+		var dir:Vector2 = target. get_global_position( ) - self.get_global_position( )
+		dir = dir.normalized( )
+		self.top += dir.y*speed+2
+		self.left += dir.x*speed

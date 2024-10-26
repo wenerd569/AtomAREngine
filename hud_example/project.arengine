@@ -1,6 +1,12 @@
 {
 	"appinfo": {
-		"project_name": "kreaton_game_example"
+		"project_name": "kreaton_game_example",
+		"uptime": "1729940446.296",
+		"ar_engine_ver": "1.0.*",
+		"build": "134",
+		"format": "scene",
+		"id": "application_id",
+		"version": "0.0.1"
 	},
 	"application": {
 		"class": "ARMain",
@@ -44,45 +50,6 @@
 				"properties": [
 					[
 						"name",
-						"Ground"
-					],
-					[
-						"collapsed_in_tree",
-						false
-					],
-					[
-						"collapsed_in_tree_flags",
-						{
-							"is_visible": false
-						}
-					],
-					[
-						"top",
-						600
-					],
-					[
-						"width",
-						1820
-					],
-					[
-						"height",
-						400
-					],
-					[
-						"anchors",
-						16
-					],
-					[
-						"paint",
-						"bfa7a7a7"
-					]
-				]
-			},
-			{
-				"class": "ARFillRect",
-				"properties": [
-					[
-						"name",
 						"Target"
 					],
 					[
@@ -97,19 +64,19 @@
 					],
 					[
 						"top",
-						226.240036
+						76.370415
 					],
 					[
 						"left",
-						769.768311
+						-99.882057
 					],
 					[
 						"width",
-						120
+						120.000046
 					],
 					[
 						"height",
-						120.000259
+						120.000206
 					],
 					[
 						"anchors",
@@ -201,11 +168,11 @@
 					],
 					[
 						"top",
-						371.813232
+						314.838013
 					],
 					[
 						"left",
-						295.488037
+						-268.174194
 					],
 					[
 						"width",
@@ -334,6 +301,88 @@
 					[
 						"font_size",
 						200
+					]
+				]
+			},
+			{
+				"class": "ARFillRect",
+				"properties": [
+					[
+						"name",
+						"Car"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						291.068787
+					],
+					[
+						"left",
+						800.276367
+					],
+					[
+						"width",
+						134.613342
+					],
+					[
+						"height",
+						158.132996
+					],
+					[
+						"anchors",
+						16
+					]
+				]
+			},
+			{
+				"class": "ARFillRect",
+				"properties": [
+					[
+						"name",
+						"Zombie"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						165.885803
+					],
+					[
+						"left",
+						299.073242
+					],
+					[
+						"width",
+						64.000092
+					],
+					[
+						"height",
+						125.929565
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"ar_script",
+						"scripts/Zombie.arscript"
 					]
 				]
 			}

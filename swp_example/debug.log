@@ -1,611 +1,104 @@
-Godot Engine v3.5.3.stable.official.6c814135b - https://godotengine.org
-OpenGL ES 2.0 Renderer: Intel(R) HD Graphics 520
+Godot Engine v3.5.stable.official.991bb6ac7 - https://godotengine.org
+OpenGL ES 2.0 Renderer: Intel(R) Iris(R) Xe Graphics
  
 [System] Connect to HUD App from SWP App
 [System] Connected to Builder!
-{data:3330333164, message_type:ping}
+{data:3714496089, message_type:ping}
 {data:Null, message_type:apps_connected}
 [System] App connected.
 input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:205.499985, y:283.499969}
-input_type: screen_touch_position, state: {x:206.999985, y:283.499969}
-input_type: screen_touch_position, state: {x:208.499985, y:281.999969}
-input_type: screen_touch_position, state: {x:212.999985, y:281.999969}
-input_type: screen_touch_position, state: {x:214.499985, y:281.999969}
-input_type: screen_touch_position, state: {x:220.499985, y:280.499969}
-input_type: screen_touch_position, state: {x:224.999985, y:280.499969}
-input_type: screen_touch_position, state: {x:227.999985, y:280.499969}
-input_type: screen_touch_position, state: {x:229.499985, y:280.499969}
-input_type: screen_touch_position, state: {x:232.499985, y:280.499969}
-input_type: screen_touch_position, state: {x:236.999985, y:280.499969}
-input_type: screen_touch_position, state: {x:238.499985, y:280.499969}
-input_type: screen_touch_position, state: {x:244.499985, y:280.499969}
-input_type: screen_touch_position, state: {x:247.499985, y:281.999969}
-input_type: screen_touch_position, state: {x:248.999985, y:281.999969}
-input_type: screen_touch_position, state: {x:251.999985, y:281.999969}
-input_type: screen_touch_position, state: {x:253.499985, y:281.999969}
-input_type: screen_touch_position, state: {x:254.999985, y:281.999969}
-input_type: screen_touch_position, state: {x:256.499969, y:283.499969}
-input_type: screen_touch_position, state: {x:256.499969, y:284.999969}
-input_type: screen_touch_position, state: {x:257.999969, y:287.999969}
-input_type: screen_touch_position, state: {x:259.499969, y:290.999969}
-input_type: screen_touch_position, state: {x:260.999969, y:295.499969}
-input_type: screen_touch_position, state: {x:263.999969, y:302.999969}
-input_type: screen_touch_position, state: {x:263.999969, y:308.999969}
-input_type: screen_touch_position, state: {x:265.499969, y:316.499969}
-input_type: screen_touch_position, state: {x:268.499969, y:328.499969}
-input_type: screen_touch_position, state: {x:271.499969, y:331.499969}
-input_type: screen_touch_position, state: {x:271.499969, y:338.999969}
-input_type: screen_touch_position, state: {x:271.499969, y:343.499969}
-input_type: screen_touch_position, state: {x:272.999969, y:347.999969}
-input_type: screen_touch_position, state: {x:274.499969, y:353.999969}
-input_type: screen_touch_position, state: {x:275.999969, y:356.999969}
-input_type: screen_touch_position, state: {x:278.999969, y:364.499969}
-input_type: screen_touch_position, state: {x:280.499969, y:365.999969}
-input_type: screen_touch_position, state: {x:280.499969, y:367.499969}
-input_type: screen_touch_position, state: {x:281.999969, y:368.999969}
-input_type: screen_touch_position, state: {x:283.499969, y:368.999969}
-input_type: screen_touch_position, state: {x:283.499969, y:370.499969}
-input_type: screen_touch_position, state: {x:283.499969, y:371.999969}
-input_type: screen_touch_position, state: {x:283.499969, y:373.499969}
-input_type: screen_touch_position, state: {x:286.499969, y:382.499969}
-input_type: screen_touch_position, state: {x:287.999969, y:386.999969}
-input_type: screen_touch_position, state: {x:289.499969, y:394.499969}
-input_type: screen_touch_position, state: {x:293.999969, y:409.499969}
-input_type: screen_touch_position, state: {x:295.499969, y:412.499969}
-input_type: screen_touch_position, state: {x:301.499969, y:433.499969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:304.499969, y:440.999969}
-input_type: screen_touch_position, state: {x:307.499969, y:451.499969}
-input_type: screen_touch_position, state: {x:308.999969, y:463.499969}
-input_type: screen_touch_position, state: {x:308.999969, y:469.499969}
-input_type: screen_touch_position, state: {x:308.999969, y:473.999969}
-input_type: screen_touch_position, state: {x:305.999969, y:485.999969}
-input_type: screen_touch_position, state: {x:302.999969, y:488.999969}
-input_type: screen_touch_position, state: {x:298.499969, y:497.999969}
-input_type: screen_touch_position, state: {x:293.999969, y:503.999969}
-input_type: screen_touch_position, state: {x:292.499969, y:505.499969}
-input_type: screen_touch_position, state: {x:284.999969, y:512.999939}
-input_type: screen_touch_position, state: {x:277.499969, y:518.999939}
-input_type: screen_touch_position, state: {x:268.499969, y:526.499939}
-input_type: screen_touch_position, state: {x:260.999969, y:533.999939}
-input_type: screen_touch_position, state: {x:253.499985, y:541.499939}
-input_type: screen_touch_position, state: {x:245.999985, y:548.999939}
-input_type: screen_touch_position, state: {x:238.499985, y:556.499939}
-input_type: screen_touch_position, state: {x:221.999985, y:569.999939}
-input_type: screen_touch_position, state: {x:215.999985, y:574.499939}
-input_type: screen_touch_position, state: {x:202.499985, y:583.499939}
-input_type: screen_touch_position, state: {x:193.499985, y:587.999939}
-input_type: screen_touch_position, state: {x:178.499985, y:595.499939}
-input_type: screen_touch_position, state: {x:176.999985, y:595.499939}
-input_type: screen_touch_position, state: {x:175.499985, y:595.499939}
-input_type: screen_touch_position, state: {x:172.499985, y:595.499939}
-input_type: screen_touch_position, state: {x:163.499985, y:593.999939}
-input_type: screen_touch_position, state: {x:155.999985, y:593.999939}
-input_type: screen_touch_position, state: {x:149.999985, y:593.999939}
-input_type: screen_touch_position, state: {x:142.499985, y:592.499939}
-input_type: screen_touch_position, state: {x:136.499985, y:592.499939}
-input_type: screen_touch_position, state: {x:122.999992, y:590.999939}
-input_type: screen_touch_position, state: {x:118.499992, y:589.499939}
-input_type: screen_touch_position, state: {x:115.499992, y:587.999939}
-input_type: screen_touch_position, state: {x:113.999992, y:587.999939}
-input_type: screen_touch_position, state: {x:110.999992, y:586.499939}
-input_type: screen_touch_position, state: {x:106.499992, y:584.999939}
-input_type: screen_touch_position, state: {x:101.999992, y:581.999939}
-input_type: screen_touch_position, state: {x:100.499992, y:581.999939}
-input_type: screen_touch_position, state: {x:97.499992, y:580.499939}
-input_type: screen_touch_position, state: {x:92.999992, y:578.999939}
-input_type: screen_touch_position, state: {x:89.999992, y:578.999939}
-input_type: screen_touch_position, state: {x:88.499992, y:577.499939}
-input_type: screen_touch_position, state: {x:86.999992, y:575.999939}
-input_type: screen_touch_position, state: {x:85.499992, y:575.999939}
-input_type: screen_touch_position, state: {x:85.499992, y:574.499939}
-input_type: screen_touch_position, state: {x:83.999992, y:571.499939}
-input_type: screen_touch_position, state: {x:79.499992, y:559.499939}
-input_type: screen_touch_position, state: {x:77.999992, y:553.499939}
-input_type: screen_touch_position, state: {x:76.499992, y:547.499939}
-input_type: screen_touch_position, state: {x:73.499992, y:529.499939}
-input_type: screen_touch_position, state: {x:73.499992, y:526.499939}
-input_type: screen_touch_position, state: {x:71.999992, y:518.999939}
-input_type: screen_touch_position, state: {x:71.999992, y:511.499969}
-input_type: screen_touch_position, state: {x:70.499992, y:508.499969}
-input_type: screen_touch_position, state: {x:70.499992, y:506.999969}
-input_type: screen_touch_position, state: {x:70.499992, y:505.499969}
-input_type: screen_touch_position, state: {x:70.499992, y:503.999969}
-input_type: screen_touch_position, state: {x:70.499992, y:502.499969}
-input_type: screen_touch_position, state: {x:70.499992, y:497.999969}
-input_type: screen_touch_position, state: {x:70.499992, y:496.499969}
-input_type: screen_touch_position, state: {x:70.499992, y:494.999969}
-input_type: screen_touch_position, state: {x:70.499992, y:493.499969}
-input_type: screen_touch_position, state: {x:71.999992, y:493.499969}
-input_type: screen_touch_position, state: {x:71.999992, y:491.999969}
-input_type: screen_touch_position, state: {x:71.999992, y:490.499969}
-input_type: screen_touch_position, state: {x:71.999992, y:487.499969}
-input_type: screen_touch_position, state: {x:74.999992, y:482.999969}
-input_type: screen_touch_position, state: {x:76.499992, y:473.999969}
-input_type: screen_touch_position, state: {x:79.499992, y:464.999969}
-input_type: screen_touch_position, state: {x:82.499992, y:458.999969}
-input_type: screen_touch_position, state: {x:82.499992, y:452.999969}
-input_type: screen_touch_position, state: {x:83.999992, y:448.499969}
-input_type: screen_touch_position, state: {x:86.999992, y:440.999969}
-input_type: screen_touch_position, state: {x:88.499992, y:431.999969}
-input_type: screen_touch_position, state: {x:89.999992, y:428.999969}
-input_type: screen_touch_position, state: {x:89.999992, y:424.499969}
-input_type: screen_touch_position, state: {x:91.499992, y:421.499969}
-input_type: screen_touch_position, state: {x:94.499992, y:415.499969}
-input_type: screen_touch_position, state: {x:94.499992, y:413.999969}
-input_type: screen_touch_position, state: {x:95.999992, y:406.499969}
-input_type: screen_touch_position, state: {x:97.499992, y:401.999969}
-input_type: screen_touch_position, state: {x:98.999992, y:398.999969}
-input_type: screen_touch_position, state: {x:100.499992, y:392.999969}
-input_type: screen_touch_position, state: {x:103.499992, y:386.999969}
-input_type: screen_touch_position, state: {x:103.499992, y:385.499969}
-input_type: screen_touch_position, state: {x:104.999992, y:382.499969}
-input_type: screen_touch_position, state: {x:106.499992, y:380.999969}
-input_type: screen_touch_position, state: {x:107.999992, y:377.999969}
-input_type: screen_touch_position, state: {x:107.999992, y:373.499969}
-input_type: screen_touch_position, state: {x:110.999992, y:368.999969}
-input_type: screen_touch_position, state: {x:112.499992, y:364.499969}
-input_type: screen_touch_position, state: {x:112.499992, y:361.499969}
-input_type: screen_touch_position, state: {x:115.499992, y:356.999969}
-input_type: screen_touch_position, state: {x:116.999992, y:352.499969}
-input_type: screen_touch_position, state: {x:121.499992, y:341.999969}
-input_type: screen_touch_position, state: {x:121.499992, y:338.999969}
-input_type: screen_touch_position, state: {x:125.999992, y:331.499969}
-input_type: screen_touch_position, state: {x:128.999985, y:325.499969}
-input_type: screen_touch_position, state: {x:130.499985, y:316.499969}
-input_type: screen_touch_position, state: {x:133.499985, y:311.999969}
-input_type: screen_touch_position, state: {x:133.499985, y:307.499969}
-input_type: screen_touch_position, state: {x:136.499985, y:295.499969}
-input_type: screen_touch_position, state: {x:137.999985, y:293.999969}
-input_type: screen_touch_position, state: {x:137.999985, y:287.999969}
-input_type: screen_touch_position, state: {x:139.499985, y:283.499969}
-input_type: screen_touch_position, state: {x:140.999985, y:278.999969}
-input_type: screen_touch_position, state: {x:142.499985, y:271.499969}
-input_type: screen_touch_position, state: {x:145.499985, y:266.999969}
-input_type: screen_touch_position, state: {x:145.499985, y:263.999969}
-input_type: screen_touch_position, state: {x:148.499985, y:254.999985}
-input_type: screen_touch_position, state: {x:151.499985, y:248.999985}
-input_type: screen_touch_position, state: {x:151.499985, y:245.999985}
-input_type: screen_touch_position, state: {x:154.499985, y:242.999985}
-input_type: screen_touch_position, state: {x:155.999985, y:241.499985}
-input_type: screen_touch_position, state: {x:157.499985, y:239.999985}
-input_type: screen_touch_position, state: {x:157.499985, y:238.499985}
-input_type: screen_touch_position, state: {x:158.999985, y:238.499985}
-input_type: screen_touch_position, state: {x:160.499985, y:236.999985}
-input_type: screen_touch_position, state: {x:161.999985, y:236.999985}
-input_type: screen_touch_position, state: {x:164.999985, y:235.499985}
-input_type: screen_touch_position, state: {x:169.499985, y:232.499985}
-input_type: screen_touch_position, state: {x:176.999985, y:230.999985}
-input_type: screen_touch_position, state: {x:182.999985, y:229.499985}
-input_type: screen_touch_position, state: {x:190.499985, y:227.999985}
-input_type: screen_touch_position, state: {x:208.499985, y:226.499985}
-input_type: screen_touch_position, state: {x:215.999985, y:224.999985}
-input_type: screen_touch_position, state: {x:236.999985, y:224.999985}
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:247.499985, y:224.999985}
-input_type: screen_touch_position, state: {x:260.999969, y:224.999985}
-input_type: screen_touch_position, state: {x:277.499969, y:224.999985}
-input_type: screen_touch_position, state: {x:293.999969, y:226.499985}
-input_type: screen_touch_position, state: {x:316.499969, y:230.999985}
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:322.499969, y:233.999985}
-input_type: screen_touch_position, state: {x:329.999969, y:236.999985}
-input_type: screen_touch_position, state: {x:334.499969, y:238.499985}
-input_type: screen_touch_position, state: {x:337.499969, y:241.499985}
-input_type: screen_touch_position, state: {x:338.999969, y:242.999985}
-input_type: screen_touch_position, state: {x:350.999969, y:257.999969}
-input_type: screen_touch_position, state: {x:352.499969, y:260.999969}
-input_type: screen_touch_position, state: {x:358.499969, y:275.999969}
-input_type: screen_touch_position, state: {x:361.499969, y:286.499969}
-input_type: screen_touch_position, state: {x:362.999969, y:295.499969}
-input_type: screen_touch_position, state: {x:362.999969, y:317.999969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:364.499969, y:329.999969}
-input_type: screen_touch_position, state: {x:364.499969, y:358.499969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:362.999969, y:362.999969}
-input_type: screen_touch_position, state: {x:359.999969, y:385.499969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:355.499969, y:404.999969}
-input_type: screen_touch_position, state: {x:353.999969, y:425.999969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:350.999969, y:449.999969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:347.999969, y:469.499969}
-input_type: screen_touch_position, state: {x:346.499969, y:482.999969}
-input_type: screen_touch_position, state: {x:343.499969, y:493.499969}
-input_type: screen_touch_position, state: {x:338.999969, y:500.999969}
-input_type: screen_touch_position, state: {x:325.499969, y:515.999939}
-input_type: screen_touch_position, state: {x:287.999969, y:541.499939}
-input_type: screen_swipe, state: down
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:263.999969, y:551.999939}
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:253.499985, y:553.499939}
-input_type: screen_touch_position, state: {x:239.999985, y:553.499939}
-input_type: screen_touch_position, state: {x:227.999985, y:551.999939}
-input_type: screen_touch_position, state: {x:209.999985, y:547.499939}
-input_type: screen_touch_position, state: {x:193.499985, y:539.999939}
-input_type: screen_touch_position, state: {x:181.499985, y:535.499939}
-input_type: screen_touch_position, state: {x:166.499985, y:530.999939}
-input_type: screen_touch_position, state: {x:151.499985, y:524.999939}
-input_type: screen_touch_position, state: {x:140.999985, y:521.999939}
-input_type: screen_touch_position, state: {x:136.499985, y:521.999939}
-input_type: screen_touch_position, state: {x:122.999992, y:517.499939}
-input_type: screen_touch_position, state: {x:115.499992, y:515.999939}
-input_type: screen_touch_position, state: {x:104.999992, y:511.499969}
-input_type: screen_touch_position, state: {x:101.999992, y:509.999969}
-input_type: screen_touch_position, state: {x:95.999992, y:491.999969}
-input_type: screen_touch_position, state: {x:95.999992, y:475.499969}
-input_type: screen_touch_position, state: {x:95.999992, y:463.499969}
-input_type: screen_touch_position, state: {x:92.999992, y:448.499969}
-input_type: screen_touch_position, state: {x:92.999992, y:436.499969}
-input_type: screen_touch_position, state: {x:91.499992, y:413.999969}
+input_type: screen_touch_position, state: {x:193.499985, y:274.499969}
 input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:91.499992, y:409.499969}
-input_type: screen_touch_position, state: {x:89.999992, y:398.999969}
-input_type: screen_touch_position, state: {x:89.999992, y:385.499969}
-input_type: screen_touch_position, state: {x:88.499992, y:370.499969}
-input_type: screen_touch_position, state: {x:88.499992, y:361.499969}
-input_type: screen_touch_position, state: {x:88.499992, y:340.499969}
+input_type: screen_swipe, state: right
+input_type: screen_touch_position, state: {x:262.499969, y:239.999985}
 input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:88.499992, y:328.499969}
-input_type: screen_touch_position, state: {x:88.499992, y:316.499969}
-input_type: screen_touch_position, state: {x:91.499992, y:302.999969}
-input_type: screen_touch_position, state: {x:95.999992, y:293.999969}
-input_type: screen_touch_position, state: {x:97.499992, y:290.999969}
-input_type: screen_touch_position, state: {x:107.999992, y:281.999969}
-input_type: screen_touch_position, state: {x:130.499985, y:268.499969}
 input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:143.999985, y:262.499969}
-input_type: screen_touch_position, state: {x:173.999985, y:250.499985}
+input_type: screen_touch_position, state: {x:298.499969, y:227.999985}
 input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:188.999985, y:244.499985}
-input_type: screen_touch_position, state: {x:209.999985, y:236.999985}
+input_type: screen_touch_position, state: {x:338.999969, y:220.499985}
 input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:221.999985, y:230.999985}
-input_type: screen_touch_position, state: {x:233.999985, y:227.999985}
-input_type: screen_touch_position, state: {x:257.999969, y:220.499985}
+input_type: screen_touch_position, state: {x:443.999969, y:238.499985}
 input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:268.499969, y:218.999985}
-input_type: screen_touch_position, state: {x:280.499969, y:215.999985}
-input_type: screen_touch_position, state: {x:290.999969, y:215.999985}
-input_type: screen_touch_position, state: {x:299.999969, y:215.999985}
-input_type: screen_touch_position, state: {x:313.499969, y:215.999985}
-input_type: screen_touch_position, state: {x:317.999969, y:217.499985}
-input_type: screen_touch_position, state: {x:325.499969, y:221.999985}
-input_type: screen_touch_position, state: {x:328.499969, y:223.499985}
-input_type: screen_touch_position, state: {x:334.499969, y:229.499985}
-input_type: screen_touch_position, state: {x:340.499969, y:238.499985}
-input_type: screen_touch_position, state: {x:344.999969, y:247.499985}
-input_type: screen_touch_position, state: {x:349.499969, y:256.499969}
-input_type: screen_touch_position, state: {x:350.999969, y:263.999969}
-input_type: screen_touch_position, state: {x:352.499969, y:263.999969}
-input_type: screen_touch_position, state: {x:352.499969, y:266.999969}
-input_type: screen_touch_position, state: {x:352.499969, y:268.499969}
-input_type: screen_touch_position, state: {x:352.499969, y:269.999969}
-input_type: screen_touch, state: False
-input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:632.999939, y:265.499969}
-input_type: screen_touch_position, state: {x:631.499939, y:265.499969}
-input_type: screen_touch_position, state: {x:629.999939, y:265.499969}
-input_type: screen_touch_position, state: {x:628.499939, y:265.499969}
-input_type: screen_touch_position, state: {x:625.499939, y:266.999969}
-input_type: screen_touch_position, state: {x:622.499939, y:266.999969}
-input_type: screen_touch_position, state: {x:617.999939, y:269.999969}
-input_type: screen_touch_position, state: {x:607.499939, y:277.499969}
-input_type: screen_touch_position, state: {x:605.999939, y:278.999969}
-input_type: screen_touch_position, state: {x:598.499939, y:281.999969}
-input_type: screen_touch_position, state: {x:598.499939, y:283.499969}
-input_type: screen_touch_position, state: {x:593.999939, y:284.999969}
-input_type: screen_touch_position, state: {x:589.499939, y:287.999969}
-input_type: screen_touch_position, state: {x:584.999939, y:290.999969}
-input_type: screen_touch_position, state: {x:581.999939, y:292.499969}
-input_type: screen_touch_position, state: {x:578.999939, y:293.999969}
-input_type: screen_touch_position, state: {x:571.499939, y:307.499969}
-input_type: screen_touch_position, state: {x:568.499939, y:316.499969}
-input_type: screen_touch_position, state: {x:562.499939, y:337.499969}
+input_type: screen_touch_position, state: {x:515.999939, y:278.999969}
 input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:556.499939, y:361.499969}
+input_type: screen_swipe, state: right
+input_type: screen_touch_position, state: {x:602.999939, y:368.999969}
 input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:554.999939, y:371.999969}
-input_type: screen_touch_position, state: {x:553.499939, y:376.499969}
-input_type: screen_touch_position, state: {x:553.499939, y:380.999969}
-input_type: screen_touch_position, state: {x:553.499939, y:385.499969}
-input_type: screen_touch_position, state: {x:553.499939, y:388.499969}
-input_type: screen_touch_position, state: {x:553.499939, y:389.999969}
-input_type: screen_touch_position, state: {x:553.499939, y:392.999969}
-input_type: screen_touch_position, state: {x:554.999939, y:394.499969}
-input_type: screen_touch_position, state: {x:554.999939, y:397.499969}
-input_type: screen_touch_position, state: {x:556.499939, y:398.999969}
-input_type: screen_touch_position, state: {x:557.999939, y:400.499969}
-input_type: screen_touch_position, state: {x:559.499939, y:401.999969}
-input_type: screen_touch_position, state: {x:563.999939, y:406.499969}
-input_type: screen_touch_position, state: {x:566.999939, y:409.499969}
-input_type: screen_touch_position, state: {x:569.999939, y:412.499969}
-input_type: screen_touch_position, state: {x:575.999939, y:416.999969}
-input_type: screen_touch_position, state: {x:578.999939, y:422.999969}
-input_type: screen_touch_position, state: {x:581.999939, y:424.499969}
-input_type: screen_touch_position, state: {x:583.499939, y:427.499969}
-input_type: screen_touch_position, state: {x:586.499939, y:431.999969}
-input_type: screen_touch_position, state: {x:592.499939, y:440.999969}
-input_type: screen_touch_position, state: {x:596.999939, y:448.499969}
-input_type: screen_touch_position, state: {x:601.499939, y:452.999969}
-input_type: screen_touch_position, state: {x:604.499939, y:458.999969}
-input_type: screen_touch_position, state: {x:607.499939, y:463.499969}
-input_type: screen_touch_position, state: {x:610.499939, y:464.999969}
-input_type: screen_touch_position, state: {x:616.499939, y:472.499969}
-input_type: screen_touch_position, state: {x:619.499939, y:475.499969}
-input_type: screen_touch_position, state: {x:623.999939, y:479.999969}
-input_type: screen_touch_position, state: {x:626.999939, y:481.499969}
-input_type: screen_touch_position, state: {x:631.499939, y:484.499969}
-input_type: screen_touch_position, state: {x:637.499939, y:487.499969}
-input_type: screen_touch_position, state: {x:647.999939, y:491.999969}
-input_type: screen_touch_position, state: {x:652.499939, y:493.499969}
-input_type: screen_touch_position, state: {x:670.499939, y:497.999969}
-input_type: screen_touch_position, state: {x:676.499939, y:500.999969}
-input_type: screen_touch_position, state: {x:695.999939, y:505.499969}
-input_type: screen_touch_position, state: {x:700.499939, y:506.999969}
-input_type: screen_touch_position, state: {x:703.499939, y:508.499969}
-input_type: screen_touch, state: False
-input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:1187.999878, y:442.499969}
-input_type: screen_touch_position, state: {x:1189.499878, y:439.499969}
-input_type: screen_touch_position, state: {x:1189.499878, y:434.999969}
-input_type: screen_touch_position, state: {x:1190.999878, y:430.499969}
-input_type: screen_touch_position, state: {x:1192.499878, y:424.499969}
-input_type: screen_touch_position, state: {x:1193.999878, y:415.499969}
-input_type: screen_touch_position, state: {x:1195.499878, y:401.999969}
-input_type: screen_touch_position, state: {x:1196.999878, y:395.999969}
-input_type: screen_touch_position, state: {x:1198.499878, y:380.999969}
-input_type: screen_touch_position, state: {x:1199.999878, y:370.499969}
-input_type: screen_touch_position, state: {x:1199.999878, y:367.499969}
-input_type: screen_touch_position, state: {x:1201.499878, y:362.999969}
-input_type: screen_touch_position, state: {x:1201.499878, y:356.999969}
-input_type: screen_touch_position, state: {x:1202.999878, y:352.499969}
-input_type: screen_touch_position, state: {x:1204.499878, y:347.999969}
-input_type: screen_touch_position, state: {x:1204.499878, y:341.999969}
-input_type: screen_touch_position, state: {x:1204.499878, y:337.499969}
-input_type: screen_touch_position, state: {x:1204.499878, y:335.999969}
-input_type: screen_touch_position, state: {x:1205.999878, y:331.499969}
-input_type: screen_touch_position, state: {x:1205.999878, y:328.499969}
-input_type: screen_touch_position, state: {x:1207.499878, y:326.999969}
-input_type: screen_touch_position, state: {x:1207.499878, y:325.499969}
-input_type: screen_touch_position, state: {x:1207.499878, y:322.499969}
-input_type: screen_touch_position, state: {x:1207.499878, y:320.999969}
-input_type: screen_touch_position, state: {x:1207.499878, y:319.499969}
-input_type: screen_touch_position, state: {x:1207.499878, y:317.999969}
-input_type: screen_touch_position, state: {x:1208.999878, y:317.999969}
-input_type: screen_touch_position, state: {x:1208.999878, y:316.499969}
-input_type: screen_touch_position, state: {x:1208.999878, y:314.999969}
-input_type: screen_touch_position, state: {x:1208.999878, y:313.499969}
-input_type: screen_touch_position, state: {x:1210.499878, y:311.999969}
-input_type: screen_touch_position, state: {x:1210.499878, y:308.999969}
-input_type: screen_touch_position, state: {x:1213.499878, y:304.499969}
-input_type: screen_touch_position, state: {x:1213.499878, y:299.999969}
-input_type: screen_touch_position, state: {x:1214.999878, y:298.499969}
-input_type: screen_touch_position, state: {x:1214.999878, y:296.999969}
-input_type: screen_touch, state: False
-input_type: screen_touch, state: True
-input_type: screen_touch, state: False
-input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:344.999969, y:251.999985}
-input_type: screen_touch_position, state: {x:344.999969, y:254.999985}
-input_type: screen_touch_position, state: {x:347.999969, y:257.999969}
-input_type: screen_touch_position, state: {x:352.499969, y:263.999969}
-input_type: screen_touch_position, state: {x:355.499969, y:268.499969}
-input_type: screen_touch_position, state: {x:362.999969, y:280.499969}
-input_type: screen_touch_position, state: {x:365.999969, y:287.999969}
-input_type: screen_touch_position, state: {x:365.999969, y:289.499969}
-input_type: screen_touch_position, state: {x:367.499969, y:299.999969}
-input_type: screen_touch_position, state: {x:368.999969, y:308.999969}
-input_type: screen_touch_position, state: {x:368.999969, y:319.499969}
-input_type: screen_touch_position, state: {x:370.499969, y:328.499969}
-input_type: screen_touch_position, state: {x:371.999969, y:332.999969}
-input_type: screen_touch_position, state: {x:371.999969, y:335.999969}
-input_type: screen_touch_position, state: {x:373.499969, y:338.999969}
-input_type: screen_touch_position, state: {x:373.499969, y:341.999969}
-input_type: screen_touch_position, state: {x:371.999969, y:347.999969}
-input_type: screen_touch_position, state: {x:367.499969, y:358.499969}
-input_type: screen_touch_position, state: {x:365.999969, y:364.499969}
-input_type: screen_touch_position, state: {x:359.999969, y:376.499969}
-input_type: screen_touch_position, state: {x:353.999969, y:385.499969}
-input_type: screen_touch_position, state: {x:338.999969, y:403.499969}
-input_type: screen_touch_position, state: {x:331.499969, y:410.999969}
-input_type: screen_touch_position, state: {x:322.499969, y:422.999969}
-input_type: screen_touch_position, state: {x:311.999969, y:434.999969}
-input_type: screen_touch_position, state: {x:302.999969, y:443.999969}
-input_type: screen_touch_position, state: {x:293.999969, y:455.999969}
-input_type: screen_touch_position, state: {x:281.999969, y:466.499969}
-input_type: screen_touch_position, state: {x:271.499969, y:478.499969}
-input_type: screen_touch_position, state: {x:262.499969, y:487.499969}
-input_type: screen_touch_position, state: {x:251.999985, y:496.499969}
-input_type: screen_touch_position, state: {x:242.999985, y:505.499969}
-input_type: screen_touch_position, state: {x:232.499985, y:514.499939}
-input_type: screen_touch_position, state: {x:224.999985, y:520.499939}
-input_type: screen_touch_position, state: {x:209.999985, y:530.999939}
-input_type: screen_touch_position, state: {x:197.999985, y:536.999939}
-input_type: screen_touch_position, state: {x:184.499985, y:545.999939}
-input_type: screen_touch_position, state: {x:158.999985, y:554.999939}
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:148.499985, y:557.999939}
-input_type: screen_touch_position, state: {x:125.999992, y:560.999939}
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:112.499992, y:560.999939}
-input_type: screen_touch_position, state: {x:107.999992, y:559.499939}
-input_type: screen_touch_position, state: {x:100.499992, y:556.499939}
-input_type: screen_touch_position, state: {x:91.499992, y:553.499939}
-input_type: screen_touch_position, state: {x:83.999992, y:547.499939}
-input_type: screen_touch_position, state: {x:70.499992, y:538.499939}
-input_type: screen_touch_position, state: {x:62.999996, y:532.499939}
-input_type: screen_touch_position, state: {x:56.999996, y:526.499939}
-input_type: screen_touch_position, state: {x:46.499996, y:514.499939}
-input_type: screen_touch_position, state: {x:40.499996, y:505.499969}
-input_type: screen_touch_position, state: {x:34.499996, y:485.999969}
-input_type: screen_touch_position, state: {x:32.999996, y:473.999969}
-input_type: screen_touch_position, state: {x:32.999996, y:461.999969}
-input_type: screen_touch_position, state: {x:32.999996, y:451.499969}
-input_type: screen_touch_position, state: {x:32.999996, y:437.999969}
-input_type: screen_touch_position, state: {x:32.999996, y:427.499969}
-input_type: screen_touch_position, state: {x:32.999996, y:413.999969}
-input_type: screen_touch_position, state: {x:32.999996, y:404.999969}
-input_type: screen_touch_position, state: {x:35.999996, y:392.999969}
-input_type: screen_touch_position, state: {x:41.999996, y:373.499969}
-input_type: screen_touch_position, state: {x:49.499996, y:361.499969}
-input_type: screen_touch_position, state: {x:55.499996, y:355.499969}
-input_type: screen_touch_position, state: {x:74.999992, y:340.499969}
-input_type: screen_touch_position, state: {x:94.499992, y:329.999969}
-input_type: screen_touch_position, state: {x:133.499985, y:313.499969}
 input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:145.499985, y:305.999969}
-input_type: screen_touch_position, state: {x:158.999985, y:299.999969}
-input_type: screen_touch_position, state: {x:178.499985, y:290.999969}
-input_type: screen_touch_position, state: {x:188.999985, y:286.499969}
-input_type: screen_touch_position, state: {x:214.499985, y:277.499969}
+input_type: screen_touch_position, state: {x:632.999939, y:409.499969}
+input_type: screen_swipe, state: down
 input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:227.999985, y:274.499969}
-input_type: screen_touch_position, state: {x:232.499985, y:272.999969}
-input_type: screen_touch_position, state: {x:253.499985, y:268.499969}
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:260.999969, y:268.499969}
-input_type: screen_touch_position, state: {x:274.499969, y:268.499969}
-input_type: screen_touch_position, state: {x:274.499969, y:269.999969}
-input_type: screen_touch_position, state: {x:277.499969, y:271.499969}
-input_type: screen_touch_position, state: {x:277.499969, y:272.999969}
-input_type: screen_touch_position, state: {x:281.999969, y:280.499969}
-input_type: screen_touch_position, state: {x:281.999969, y:289.499969}
-input_type: screen_touch_position, state: {x:281.999969, y:292.499969}
-input_type: screen_touch_position, state: {x:278.999969, y:298.499969}
-input_type: screen_touch_position, state: {x:274.499969, y:305.999969}
-input_type: screen_touch_position, state: {x:271.499969, y:313.499969}
-input_type: screen_touch_position, state: {x:263.999969, y:320.999969}
-input_type: screen_touch_position, state: {x:248.999985, y:332.999969}
-input_type: screen_touch_position, state: {x:239.999985, y:338.999969}
-input_type: screen_touch_position, state: {x:218.999985, y:356.999969}
+input_type: screen_touch_position, state: {x:644.999939, y:428.999969}
+input_type: screen_touch_position, state: {x:652.499939, y:443.999969}
+input_type: screen_touch_position, state: {x:655.499939, y:457.499969}
+input_type: screen_touch_position, state: {x:647.999939, y:562.499939}
+input_type: screen_swipe, state: down
+input_type: screen_touch_position, state: {x:625.499939, y:706.499939}
+input_type: screen_swipe, state: down
 input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:208.499985, y:364.499969}
-input_type: screen_touch_position, state: {x:200.999985, y:370.499969}
-input_type: screen_touch_position, state: {x:185.999985, y:385.499969}
-input_type: screen_touch_position, state: {x:181.499985, y:389.999969}
-input_type: screen_touch_position, state: {x:169.499985, y:400.499969}
-input_type: screen_touch_position, state: {x:161.999985, y:407.999969}
-input_type: screen_touch_position, state: {x:149.999985, y:415.499969}
-input_type: screen_touch_position, state: {x:133.499985, y:419.999969}
-input_type: screen_touch_position, state: {x:122.999992, y:422.999969}
-input_type: screen_touch_position, state: {x:121.499992, y:422.999969}
-input_type: screen_touch_position, state: {x:112.499992, y:422.999969}
-input_type: screen_touch_position, state: {x:104.999992, y:419.999969}
-input_type: screen_touch_position, state: {x:97.499992, y:416.999969}
-input_type: screen_touch_position, state: {x:83.999992, y:409.499969}
-input_type: screen_touch_position, state: {x:77.999992, y:401.999969}
-input_type: screen_touch_position, state: {x:70.499992, y:392.999969}
-input_type: screen_touch_position, state: {x:58.499996, y:376.499969}
-input_type: screen_touch_position, state: {x:52.499996, y:365.999969}
-input_type: screen_touch_position, state: {x:46.499996, y:355.499969}
-input_type: screen_touch_position, state: {x:43.499996, y:346.499969}
-input_type: screen_touch_position, state: {x:40.499996, y:337.499969}
-input_type: screen_touch_position, state: {x:38.999996, y:335.999969}
-input_type: screen_touch_position, state: {x:38.999996, y:316.499969}
-input_type: screen_touch_position, state: {x:40.499996, y:302.999969}
-input_type: screen_touch_position, state: {x:50.999996, y:278.999969}
+input_type: screen_touch_position, state: {x:595.499939, y:823.499939}
+input_type: screen_swipe, state: down
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:553.499939, y:832.499939}
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:536.999939, y:832.499939}
+input_type: screen_touch_position, state: {x:515.999939, y:832.499939}
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:491.999969, y:830.999939}
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:473.999969, y:826.499939}
+input_type: screen_touch_position, state: {x:413.999969, y:772.499939}
 input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:59.999996, y:268.499969}
-input_type: screen_touch_position, state: {x:68.999992, y:257.999969}
-input_type: screen_touch_position, state: {x:85.499992, y:244.499985}
-input_type: screen_touch_position, state: {x:100.499992, y:236.999985}
-input_type: screen_touch_position, state: {x:112.499992, y:229.499985}
-input_type: screen_touch_position, state: {x:128.999985, y:223.499985}
-input_type: screen_touch_position, state: {x:146.999985, y:218.999985}
-input_type: screen_touch_position, state: {x:161.999985, y:215.999985}
-input_type: screen_touch_position, state: {x:175.499985, y:212.999985}
-input_type: screen_touch_position, state: {x:184.499985, y:212.999985}
-input_type: screen_touch_position, state: {x:194.999985, y:212.999985}
-input_type: screen_touch_position, state: {x:202.499985, y:212.999985}
-input_type: screen_touch_position, state: {x:203.999985, y:214.499985}
-input_type: screen_touch_position, state: {x:206.999985, y:215.999985}
-input_type: screen_touch_position, state: {x:211.499985, y:223.499985}
-input_type: screen_touch_position, state: {x:214.499985, y:232.499985}
-input_type: screen_touch_position, state: {x:217.499985, y:244.499985}
-input_type: screen_touch_position, state: {x:220.499985, y:254.999985}
-input_type: screen_touch_position, state: {x:223.499985, y:268.499969}
-input_type: screen_touch_position, state: {x:232.499985, y:295.499969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:236.999985, y:308.999969}
-input_type: screen_touch_position, state: {x:242.999985, y:323.999969}
-input_type: screen_touch_position, state: {x:247.499985, y:335.999969}
-input_type: screen_touch_position, state: {x:250.499985, y:346.499969}
-input_type: screen_touch_position, state: {x:251.999985, y:356.999969}
-input_type: screen_touch_position, state: {x:256.499969, y:379.499969}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:259.499969, y:392.999969}
-input_type: screen_touch_position, state: {x:260.999969, y:397.499969}
-input_type: screen_touch_position, state: {x:260.999969, y:401.999969}
-input_type: screen_touch_position, state: {x:263.999969, y:410.999969}
-input_type: screen_touch_position, state: {x:265.499969, y:415.499969}
-input_type: screen_touch_position, state: {x:265.499969, y:418.499969}
-input_type: screen_touch_position, state: {x:266.999969, y:421.499969}
-input_type: screen_touch_position, state: {x:266.999969, y:422.999969}
-input_type: screen_touch_position, state: {x:263.999969, y:422.999969}
-input_type: screen_touch_position, state: {x:262.499969, y:422.999969}
-input_type: screen_touch_position, state: {x:256.499969, y:422.999969}
-input_type: screen_touch_position, state: {x:250.499985, y:422.999969}
-input_type: screen_touch_position, state: {x:242.999985, y:422.999969}
-input_type: screen_touch_position, state: {x:217.499985, y:430.499969}
 input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:203.999985, y:431.999969}
-input_type: screen_touch_position, state: {x:182.999985, y:436.499969}
+input_type: screen_touch_position, state: {x:334.499969, y:679.499939}
+input_type: screen_swipe, state: up
 input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:179.999985, y:436.499969}
-input_type: screen_touch_position, state: {x:175.499985, y:436.499969}
-input_type: screen_touch_position, state: {x:169.499985, y:436.499969}
-input_type: screen_touch_position, state: {x:160.499985, y:436.499969}
-input_type: screen_touch_position, state: {x:152.999985, y:434.999969}
-input_type: screen_touch_position, state: {x:145.499985, y:434.999969}
-input_type: screen_touch_position, state: {x:140.999985, y:433.499969}
-input_type: screen_touch_position, state: {x:136.499985, y:430.499969}
-input_type: screen_touch_position, state: {x:133.499985, y:428.999969}
-input_type: screen_touch_position, state: {x:127.499992, y:425.999969}
-input_type: screen_touch_position, state: {x:125.999992, y:422.999969}
-input_type: screen_touch_position, state: {x:124.499992, y:418.499969}
-input_type: screen_touch_position, state: {x:122.999992, y:412.499969}
-input_type: screen_touch_position, state: {x:122.999992, y:406.499969}
-input_type: screen_touch_position, state: {x:122.999992, y:403.499969}
-input_type: screen_touch_position, state: {x:122.999992, y:392.999969}
-input_type: screen_touch_position, state: {x:122.999992, y:388.499969}
-input_type: screen_touch_position, state: {x:124.499992, y:370.499969}
-input_type: screen_touch_position, state: {x:125.999992, y:359.999969}
-input_type: screen_touch_position, state: {x:127.499992, y:349.499969}
-input_type: screen_touch_position, state: {x:128.999985, y:338.999969}
-input_type: screen_touch_position, state: {x:131.999985, y:326.999969}
-input_type: screen_touch_position, state: {x:136.499985, y:316.499969}
-input_type: screen_touch_position, state: {x:139.499985, y:305.999969}
-input_type: screen_touch_position, state: {x:143.999985, y:292.499969}
-input_type: screen_touch_position, state: {x:148.499985, y:283.499969}
-input_type: screen_touch_position, state: {x:152.999985, y:278.999969}
-input_type: screen_touch_position, state: {x:158.999985, y:274.499969}
-input_type: screen_touch_position, state: {x:163.499985, y:269.999969}
-input_type: screen_touch_position, state: {x:167.999985, y:268.499969}
+input_type: screen_touch_position, state: {x:277.499969, y:599.999939}
+input_type: screen_swipe, state: up
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:224.999985, y:526.499939}
+input_type: screen_swipe, state: up
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:200.999985, y:485.999969}
+input_type: screen_swipe, state: up
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:172.499985, y:434.999969}
+input_type: screen_swipe, state: up
+input_type: screen_swipe, state: left
+input_type: screen_touch_position, state: {x:155.999985, y:407.999969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:145.499985, y:376.499969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:130.499985, y:314.999969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:128.999985, y:281.999969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:130.499985, y:266.999969}
 input_type: screen_touch, state: False
 input_type: screen_touch, state: True
 input_type: screen_touch, state: False
 input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:1193.999878, y:301.499969}
-input_type: screen_touch_position, state: {x:1193.999878, y:299.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:293.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:289.499969}
-input_type: screen_touch_position, state: {x:1192.499878, y:283.499969}
-input_type: screen_touch_position, state: {x:1192.499878, y:281.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:278.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:272.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:269.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:265.499969}
-input_type: screen_touch_position, state: {x:1192.499878, y:262.499969}
-input_type: screen_touch_position, state: {x:1192.499878, y:260.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:259.499969}
-input_type: screen_touch_position, state: {x:1192.499878, y:257.999969}
-input_type: screen_touch_position, state: {x:1192.499878, y:253.499985}
+input_type: screen_touch_position, state: {x:1201.499878, y:383.999969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:1202.999878, y:317.999969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:1202.999878, y:280.499969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:1204.499878, y:257.999969}
+input_type: screen_swipe, state: up
+input_type: screen_touch_position, state: {x:1205.999878, y:239.999985}
+input_type: screen_touch_position, state: {x:1211.999878, y:232.499985}
+input_type: screen_touch_position, state: {x:1214.999878, y:224.999985}
+input_type: screen_touch_position, state: {x:1214.999878, y:221.999985}
+input_type: screen_touch_position, state: {x:1214.999878, y:209.999985}
+input_type: screen_touch_position, state: {x:1213.499878, y:202.499985}
+input_type: screen_touch_position, state: {x:1213.499878, y:196.499985}
+input_type: screen_touch_position, state: {x:1213.499878, y:193.499985}
+input_type: screen_touch_position, state: {x:1211.999878, y:188.999985}
+input_type: screen_touch_position, state: {x:1211.999878, y:182.999985}
+input_type: screen_touch_position, state: {x:1211.999878, y:179.999985}
+input_type: screen_touch_position, state: {x:1211.999878, y:175.499985}
+input_type: screen_touch_position, state: {x:1211.999878, y:173.999985}
 input_type: screen_touch, state: False
 input_type: screen_touch, state: True
 input_type: screen_touch, state: False
-{data:0, message_type:server_state}

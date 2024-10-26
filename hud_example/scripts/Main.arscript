@@ -3,6 +3,7 @@ extends ARMain
 var bullet
 var target
 var label
+var zombie
 
 var gotcha: bool = false
 var rng = RandomNumberGenerator.new()

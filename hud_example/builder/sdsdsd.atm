@@ -1,0 +1,360 @@
+{
+	"appinfo": {
+		"project_name": "kreaton_game_example",
+		"uptime": "1729940446.296",
+		"ar_engine_ver": "1.0.*",
+		"build": "134",
+		"format": "scene",
+		"id": "application_id",
+		"version": "0.0.1"
+	},
+	"application": {
+		"class": "ARMain",
+		"properties": [
+			[
+				"name",
+				"Main"
+			],
+			[
+				"ar_script",
+				"scripts/Main.arscript"
+			],
+			[
+				"operation_add",
+				true
+			],
+			[
+				"operation_duplicate",
+				false
+			],
+			[
+				"operation_delete",
+				false
+			],
+			[
+				"operation_set_preset",
+				false
+			],
+			[
+				"operation_drag",
+				false
+			],
+			[
+				"operation_drop",
+				true
+			]
+		],
+		"children": [
+			{
+				"class": "ARFillRect",
+				"properties": [
+					[
+						"name",
+						"Ground"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						684.22406
+					],
+					[
+						"left",
+						8.671721
+					],
+					[
+						"width",
+						1820
+					],
+					[
+						"height",
+						399.999817
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"paint",
+						"bfa7a7a7"
+					]
+				]
+			},
+			{
+				"class": "ARFillRect",
+				"properties": [
+					[
+						"name",
+						"Target"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						226.240036
+					],
+					[
+						"left",
+						769.768311
+					],
+					[
+						"width",
+						120
+					],
+					[
+						"height",
+						120.000259
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"ar_script",
+						"scripts/Target.arscript"
+					],
+					[
+						"panel_color",
+						"ff000000"
+					],
+					[
+						"border_color",
+						"ffbe00dd"
+					],
+					[
+						"border_width",
+						15
+					],
+					[
+						"border_radius",
+						60
+					]
+				],
+				"children": [
+					{
+						"class": "ARLabel",
+						"properties": [
+							[
+								"name",
+								"ARLabel"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								-62.897552
+							],
+							[
+								"left",
+								5.469353
+							],
+							[
+								"width",
+								232
+							],
+							[
+								"height",
+								52
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"font_size",
+								50
+							]
+						]
+					}
+				]
+			},
+			{
+				"class": "ARFillRect",
+				"properties": [
+					[
+						"name",
+						"Bullet"
+					],
+					[
+						"collapsed_in_tree",
+						true
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						371.813232
+					],
+					[
+						"left",
+						295.488037
+					],
+					[
+						"width",
+						64
+					],
+					[
+						"height",
+						64
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"ar_script",
+						"scripts/Bullet.arscript"
+					],
+					[
+						"panel_color",
+						"ff00dddd"
+					],
+					[
+						"border_color",
+						"ff00dddd"
+					],
+					[
+						"border_width",
+						6
+					],
+					[
+						"border_radius",
+						32
+					]
+				],
+				"children": [
+					{
+						"class": "ARLabel",
+						"properties": [
+							[
+								"name",
+								"ARLabel"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								175.402359
+							],
+							[
+								"left",
+								-198.41272
+							],
+							[
+								"width",
+								462
+							],
+							[
+								"height",
+								101.000046
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"font_size",
+								100
+							]
+						]
+					}
+				]
+			},
+			{
+				"class": "ARLabel",
+				"properties": [
+					[
+						"name",
+						"ARLabel"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						6.153168
+					],
+					[
+						"left",
+						444.726746
+					],
+					[
+						"width",
+						925.001038
+					],
+					[
+						"height",
+						197
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"self_paint",
+						"ffdd8500"
+					],
+					[
+						"text",
+						""
+					],
+					[
+						"font_size",
+						200
+					]
+				]
+			}
+		]
+	},
+	"resources": {
+		"scripts/Bullet.arscript": "extends ARFillRect\n\nconst BASE_SIZE: float = 64.0\n\nvar pos_x: float = 0.0\nvar pos_y: float = 0.0\nvar pos_z: float = 0.0\n\nvar velocity_x: float = 0.0\nvar velocity_y: float = 0.0\nvar velocity_z: float = 0.0\n\nvar stopped: bool = false\n\nvar label\n\n\nfunc shoot(angle_x: float, angle_z: float, power: float) -> void:\n\tpos_x = 0.0\n\tpos_y = 1.0\n\tpos_z = 1.0\n\tvelocity_x = sin(angle_x) * power\n\tvelocity_y = sin(angle_z) * power\n\tvelocity_z = cos(angle_z) * power\n\tstopped = false\n\n\nfunc init() -> void:\n\tlabel = get_ar_element(\"ARLabel\")\n\n\nfunc update_process(delta: float) -> void:\n\tif pos_y >= 0.1:\n\t\tpos_x += velocity_x * delta * 2\n\t\tpos_y += velocity_y * delta * 2\n\t\tpos_z += velocity_z * delta * 2\n\t\t\n\t\tvelocity_y -= 20 * delta\n\t\tset_bullet()\n\telse:\n\t\tstopped = true\n\n\nfunc set_bullet() -> void:\n\tvar bullet_size: int = 10 * BASE_SIZE * atan(BASE_SIZE / (2 * pos_z))\n\t#api(\"out\", \"Size: \" + str(bullet_size))\n\tself.width = bullet_size\n\tself.height = bullet_size\n\tself.border_radius = bullet_size / 2.0\n\tself.border_width = bullet_size / 8.0\n\t\n\tself.top = 600 - pos_y - bullet_size / 2.0\n\tself.left = 910 + pos_x - bullet_size / 2.0\n\tlabel.text = str(str(pos_z) + \" m\")\n\t#api(\"out\", \"Distance: \" + str(pos_z) + \"X: \" + str(pos_x) + \"Y: \" + str(pos_y))\n",
+		"scripts/Main.arscript": "extends ARMain\n\nvar bullet\nvar target\nvar label\n\nvar gotcha: bool = false\nvar rng = RandomNumberGenerator.new()\nvar time: float = 0.0\n\n\nfunc start() -> void:\n\tapi(\"connect_to_swp_app\", {\n\t\t\"target_node\": self,\n\t\t\"on_message\": \"on_message\",\n\t\t\"on_error\": \"on_error\",\n\t\t\"on_connected\": \"on_connected\",\n\t\t\"on_disconnected\": \"on_disconnected\",\n\t})\n\t\n\trng.randomize()\n\tvar my_random_number = rng.randf_range(-10.0, 10.0)\n\tlabel = get_ar_element(\"ARLabel\")\n\ttarget = get_ar_element(\"Target\")\n\tbullet = get_ar_element(\"Bullet\")\n\ttarget.init()\n\tbullet.init()\n\ttarget.setup(rng.randf_range(-300.0, 300.0), rng.randf_range(50.0, 200.0), rng.randf_range(300.0, 800.0), 120)\n\n\nfunc update_process(delta: float) -> void:\n\tif not bullet.stopped:\n\t\ttime = 0.0\n\t\tif target.check_intersection(bullet.pos_x, bullet.pos_y, bullet.pos_z): \n\t\t\tgotcha = true\n\t\t\tlabel.text = \"Gotcha!\"\n\telse:\n\t\ttime += delta\n\t\tif time < 5.0:\n\t\t\tif gotcha:\n\t\t\t\tlabel.text = \"Gotcha!\"\n\t\t\telse:\n\t\t\t\tlabel.text = \"Miss!\"\n\t\telse:\n\t\t\treset_hit()\n\n\nfunc reset_hit() -> void:\n\tgotcha = false\n\tlabel.text = \" \"\n\n\nfunc on_message(message):\n\tif message.has(\"action\"):\n\t\tif message[\"action\"] == \"shoot\":\n\t\t\tapi(\"out\", \"FIRE!\")\n\t\t\tbullet.shoot(float(message[\"angle_x\"]), float(message[\"angle_z\"]), float(message[\"power\"]))\n\t\tif message[\"action\"] == \"target\":\n\t\t\tif message[\"auto\"] == \"true\":\n\t\t\t\ttarget.setup(rng.randf_range(-300.0, 300.0), rng.randf_range(50.0, 200.0), rng.randf_range(300.0, 800.0), 120)\n\t\t\telse:\n\t\t\t\ttarget.setup(float(message[\"pos_x\"]), float(message[\"pos_y\"]), float(message[\"pos_z\"]), float(message[\"size\"]))\n\n\nfunc on_connected():\n\tapi(\"out\", \"HUD connected to SWP!\")\n\n\nfunc on_disconnected():\n\tapi(\"out\", \"HUD disconnected from SWP!\")\n\n\nfunc on_error(error_text: String):\n\tapi(\"out\", to_json(error_text))\n",
+		"scripts/Target.arscript": "extends ARFillRect\n\nvar base_size: float = 1.0\n\nvar pos_x: float = 0.0\nvar pos_y: float = 0.0\nvar pos_z: float = 0.0\n\nvar label\n\n\nfunc setup(x: float, y: float, z: float, size: float) -> void:\n\tpos_x = x\n\tpos_y = y\n\tpos_z = z\n\tbase_size = size\n\t\n\tvar target_size: int = 10 * size * atan(size / (2 * pos_z))\n\t#api(\"out\", \"Target size: \" + str(target_size))\n\tself.width = target_size\n\tself.height = target_size\n\tself.border_radius = target_size / 2.0\n\tself.border_width = target_size / 8.0\n\t\n\tself.top = 600 - pos_y - target_size / 2.0\n\tself.left = 910 + pos_x - target_size / 2.0\n\t#api(\"out\", \"Distance: \" + str(pos_z) + \"X: \" + str(pos_x) + \"Y: \" + str(pos_y))\n\t#api(\"out\", str(\"Pos z: \" + str(pos_z)))\n\t\n\tlabel.top = -self.width / 2.0 + 10\n\tlabel.text = str(str(pos_z) + \" m\")\n\n\nfunc init() -> void:\n\tlabel = get_ar_element(\"ARLabel\")\n\n\nfunc check_intersection(bullet_x: float, bullet_y: float, bullet_z: float) -> bool:\n\tif abs(bullet_z - pos_z) < pos_z * 0.1:\n\t\tif abs(bullet_x - pos_x) < ((base_size / 2.0) + (pos_z * 0.1)) and abs(bullet_y - pos_y) < ((base_size / 2.0) + (pos_z * 0.05)):\n\t\t\treturn true\n\t\telse:\n\t\t\treturn false\n\telse: \n\t\treturn false\n\n"
+	},
+	"permissions": [
+
+	]
+}

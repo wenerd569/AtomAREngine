@@ -1,0 +1,16 @@
+extends ARFillRect
+
+var pos_x: float = 0.0
+var pos_y: float = 0.0
+
+var car
+
+
+func start():
+	car = get_ar_element("Car")
+
+func update_process(delta: float) -> void:
+	var dir = car. get_global_position( ) - self.get_global_position( )
+	dir = dir.normalized( )
+	self.top = self.top + 3
+	self.left = self.left

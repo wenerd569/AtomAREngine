@@ -1,9 +1,10 @@
-extends ARFillRect
+extends AROverlap
 
 var target
 var is_live:bool = false
 
-var speed = 2
+var speed = 2.5
+var health_down: float = 25.0
 
 func init(car, start_coord ):
 	self.top =  start_coord.y
@@ -19,3 +20,9 @@ func update_process(delta: float) -> void:
 		dir = dir.normalized( )
 		self.top += dir.y*speed+2
 		self.left += dir.x*speed
+		
+func overlap_start(ar_element: AROverlap) -> void:
+	if ar_element.name == "Car":
+		api("out", "over car")
+		ar_element.change_health(health_down)
+		#delete()

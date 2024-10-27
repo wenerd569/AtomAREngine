@@ -46,98 +46,6 @@
 		],
 		"children": [
 			{
-				"class": "ARFillRect",
-				"properties": [
-					[
-						"name",
-						"Car"
-					],
-					[
-						"collapsed_in_tree",
-						false
-					],
-					[
-						"collapsed_in_tree_flags",
-						{
-							"is_visible": false
-						}
-					],
-					[
-						"top",
-						254.371552
-					],
-					[
-						"left",
-						755.474426
-					],
-					[
-						"width",
-						134.613281
-					],
-					[
-						"height",
-						224.42215
-					],
-					[
-						"anchors",
-						16
-					],
-					[
-						"ar_script",
-						"scripts/Car.arscript"
-					],
-					[
-						"panel_color",
-						"00ffffff"
-					]
-				],
-				"children": [
-					{
-						"class": "ARImage",
-						"properties": [
-							[
-								"name",
-								"ARImage"
-							],
-							[
-								"collapsed_in_tree",
-								false
-							],
-							[
-								"collapsed_in_tree_flags",
-								{
-									"is_visible": false
-								}
-							],
-							[
-								"top",
-								4.201835
-							],
-							[
-								"left",
-								-56.977711
-							],
-							[
-								"width",
-								237.373566
-							],
-							[
-								"height",
-								210.468353
-							],
-							[
-								"anchors",
-								16
-							],
-							[
-								"image",
-								"images/game.png"
-							]
-						]
-					}
-				]
-			},
-			{
 				"class": "ARLabel",
 				"properties": [
 					[
@@ -224,7 +132,7 @@
 				],
 				"children": [
 					{
-						"class": "ARFillRect",
+						"class": "AROverlap",
 						"properties": [
 							[
 								"name",
@@ -242,27 +150,186 @@
 							],
 							[
 								"top",
-								746.549133
+								100.608719
 							],
 							[
 								"left",
-								-396.548096
+								-137.064255
 							],
 							[
 								"width",
-								64.000183
+								89.906723
 							],
 							[
 								"height",
-								125.929382
+								136.29686
 							],
 							[
 								"anchors",
 								16
 							],
 							[
+								"self_paint",
+								"ffffc2d5"
+							],
+							[
 								"ar_script",
 								"scripts/Zombie.arscript"
+							],
+							[
+								"shape",
+								0
+							]
+						]
+					}
+				]
+			},
+			{
+				"class": "AROverlap",
+				"properties": [
+					[
+						"name",
+						"Car"
+					],
+					[
+						"collapsed_in_tree",
+						false
+					],
+					[
+						"collapsed_in_tree_flags",
+						{
+							"is_visible": false
+						}
+					],
+					[
+						"top",
+						204.008881
+					],
+					[
+						"left",
+						746.845703
+					],
+					[
+						"width",
+						175.05603
+					],
+					[
+						"height",
+						262.565247
+					],
+					[
+						"anchors",
+						16
+					],
+					[
+						"self_paint",
+						"00ffffff"
+					],
+					[
+						"ar_script",
+						"scripts/AROverlap.arscript"
+					],
+					[
+						"shape",
+						0
+					]
+				],
+				"children": [
+					{
+						"class": "ARImage",
+						"properties": [
+							[
+								"name",
+								"ARImage"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								26.048431
+							],
+							[
+								"left",
+								-1.003906
+							],
+							[
+								"width",
+								177.063843
+							],
+							[
+								"height",
+								210.468384
+							],
+							[
+								"anchors",
+								8
+							],
+							[
+								"image",
+								"images/car.png"
+							],
+							[
+								"h_frames",
+								2
+							]
+						]
+					},
+					{
+						"class": "ARProgressBar",
+						"properties": [
+							[
+								"name",
+								"ARProgressBar"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"left",
+								23.528015
+							],
+							[
+								"width",
+								128
+							],
+							[
+								"height",
+								32
+							],
+							[
+								"anchors",
+								5
+							],
+							[
+								"percent_visible",
+								false
+							],
+							[
+								"current_percent",
+								7
+							],
+							[
+								"radius_back",
+								2
+							],
+							[
+								"radius_front",
+								2
 							]
 						]
 					}

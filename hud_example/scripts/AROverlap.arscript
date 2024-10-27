@@ -1,0 +1,51 @@
+extends AROverlap
+
+var target
+var is_live:bool = true
+
+var health: float = 100.0
+var max_health: float = 100.0
+var bar: ARProgressBar
+
+var fps: float = 5
+var frame_time: float = 0
+var sprite: ARImage
+
+var speed = 2
+
+func start() -> void:
+	bar = get_ar_element("ARProgressBar")
+	bar.current_percent = health / max_health * 100
+	
+	sprite = get_ar_element("ARImage")
+
+func init(car, start_coord ):
+	self.top =  start_coord.y
+	self.left =  start_coord.x
+	visibility = true
+	is_live = true
+	target = car
+	api("out", self)
+
+
+func update_process(delta: float) -> void:
+	if is_live:
+		if frame_time >= 1.0 / fps:
+		# Время сменить кадр
+			var frame_num: int = sprite.frame_coord.x
+			frame_num += 1
+			frame_time = 0.0
+			sprite.frame_coord = Vector2(frame_num, 0)
+		frame_time += delta
+	
+		var dir:Vector2 = target. get_global_position( ) - self.get_global_position( )
+		dir = dir.normalized( )
+		self.top += dir.y*speed+2
+		self.left += dir.x*speed
+
+
+func change_health(value: float) -> void:
+	health -= value
+	if health < 0:
+		health = 0
+	bar.current_percent = health / max_health * 100

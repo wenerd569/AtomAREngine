@@ -2,6 +2,7 @@ extends ARGroup
 
 var zombies:Array
 var car
+var time = 0
 
 var rng = RandomNumberGenerator.new()
 
@@ -20,3 +21,10 @@ func spawn_zombies():
 			rng.randomize()
 			var start =  Vector2(rng.randf_range(100, 1700), rng.randf_range(100, 700))
 			z.init(car,  start, rng.randf_range(0.2, 0.3))
+
+
+func update_process(delta: float) -> void:
+	time += delta
+	if time > 20:
+		time = 0
+		spawn_zombies()

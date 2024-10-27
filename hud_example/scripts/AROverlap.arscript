@@ -28,7 +28,7 @@ func init(car, start_coord ):
 	visibility = true
 	is_live = true
 	target = car
-	api("out", self)
+	#api("out", self)
 
 
 func update_process(delta: float) -> void:
@@ -42,11 +42,6 @@ func update_process(delta: float) -> void:
 			frame_time = 0.0
 			sprite.frame_coord = Vector2(frame_num, 0)
 		frame_time += delta
-	
-		var dir:Vector2 = target. get_global_position( ) - self.get_global_position( )
-		dir = dir.normalized( )
-		self.top += dir.y*speed+2
-		self.left += dir.x*speed
 
 
 func change_health(value: float) -> void:
@@ -67,7 +62,7 @@ func atack_wheel(swipe):
 
 func atack_janitor(swipe):
   api('out', "swipe janitor")
-  var janitor = get_ar_element("Main/Items/Wheel")
+  var janitor = get_ar_element("Main/Items/Janitor")
   janitor.top = self.top
   janitor.left = self.left
   janitor.move(swipe)

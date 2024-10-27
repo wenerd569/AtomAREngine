@@ -1,5 +1,6 @@
 extends AROverlap
 
+var type = "zombie"
 var target
 var is_live:bool = false
 
@@ -29,7 +30,7 @@ func update_process(delta: float) -> void:
 		if time > 0.5:
 			time = 0
 			sprite.frame = (sprite.frame + 1)%6
-			api("out", sprite)	
+			#api("out", sprite)	
 		self.top += dir.y*speed+target.speed
 		self.left += dir.x*speed
 
@@ -48,3 +49,11 @@ func damage_car(delta):
 		if tauch_time > 1.5:
 			tauch_time = 0			
 			target.change_health(health_down)
+
+func death():
+	is_live = false
+	self.top = -100
+	self.left = -100
+	self.visibility = false
+
+

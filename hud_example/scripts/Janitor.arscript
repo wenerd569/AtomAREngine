@@ -1,5 +1,6 @@
 extends AROverlap
 
+
 var dir:Vector2 = Vector2(0, 0)
 var is_live = false
 var speed:float = 2.0
@@ -13,8 +14,3 @@ func update_process(delta: float) -> void:
 	if  is_live:
 		self.top = self.top - dir.x*speed
 		self.left = self.left + dir.y*speed
-
-func overlap_start(ar_element: AROverlap) -> void:
-	if  is_live:
-		if ar_element.type == "zombie":
-			ar_element.death()

@@ -965,6 +965,10 @@
 								"00ffffff"
 							],
 							[
+								"ar_script",
+								"scripts/Janitor.arscript"
+							],
+							[
 								"shape",
 								0
 							]

@@ -21,7 +21,8 @@ func start() -> void:
 func on_message(message):
   if message['type'] == 'choise':
     var bullet = message['bullet']
-    var swipe = message['swipe']
+    var swipe = Vector2(message['swipex'], message['swipey'])
+    api("out", swipe)
     if bullet == Details.wheel:
       car.atack_wheel(swipe)
     elif bullet == Details.janitor:

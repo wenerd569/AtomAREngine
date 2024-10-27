@@ -71,7 +71,8 @@ func swipe_complete(swipe):
 		{
 			"type": "choise",
 			"bullet": type,
-			"swipe": swipe
+			"swipex": swipe.x,
+			"swipey": swipe.y
 		}
 	)
 	

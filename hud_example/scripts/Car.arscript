@@ -67,6 +67,14 @@ func atack_janitor(swipe):
   janitor.left = self.left
   janitor.move(swipe)
 
+
+func atack_tree(swipe):
+  api('out', "swipe tree")
+  var tree = get_ar_element("Main/Items/Tree")
+  tree.top = self.top
+  tree.left = self.left
+  tree.move(swipe)
+
 func game_ower():
 	var label = get_ar_element("Main/ARLabel")
 	label.visible = true

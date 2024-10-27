@@ -30,6 +30,8 @@ func on_message(message):
       car.atack_wheel(swipe)
     elif bullet == Details.janitor:
       car.atack_janitor(swipe)
+    elif bullet == Details.tree:
+        car.atack_tree(swipe)
 
 func on_connected():
 	api("out", "HUD connected to SWP!")

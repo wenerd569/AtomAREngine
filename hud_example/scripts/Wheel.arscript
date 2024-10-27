@@ -23,7 +23,7 @@ func update_process(delta: float) -> void:
 			self.height = 200
 		else:
 			self.top = self.top + dir.y*speed
-			self.left = self.left - dir.x*speed
+			self.left = self.left + dir.x*speed
 
 func overlap_start(ar_element: AROverlap) -> void:
 	if  is_live:

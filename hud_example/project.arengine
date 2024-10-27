@@ -1010,6 +1010,94 @@
 								]
 							}
 						]
+					},
+					{
+						"class": "AROverlap",
+						"properties": [
+							[
+								"name",
+								"Tree"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								113.612869
+							],
+							[
+								"left",
+								-398.674347
+							],
+							[
+								"width",
+								100
+							],
+							[
+								"height",
+								100
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"self_paint",
+								"00ffffff"
+							],
+							[
+								"ar_script",
+								"scripts/Tree.arscript"
+							],
+							[
+								"shape",
+								0
+							]
+						],
+						"children": [
+							{
+								"class": "ARImage",
+								"properties": [
+									[
+										"name",
+										"ARImage"
+									],
+									[
+										"collapsed_in_tree",
+										false
+									],
+									[
+										"collapsed_in_tree_flags",
+										{
+											"is_visible": false
+										}
+									],
+									[
+										"width",
+										100
+									],
+									[
+										"height",
+										100
+									],
+									[
+										"anchors",
+										16
+									],
+									[
+										"image",
+										"images/elka.png"
+									]
+								]
+							}
+						]
 					}
 				]
 			}

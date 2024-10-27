@@ -49,3 +49,10 @@ func change_health(value: float) -> void:
 	if health < 0:
 		health = 0
 	bar.current_percent = health / max_health * 100
+	
+func atack_wheel(swipe):
+	api('out', "swipe wheel")
+
+func atack_janitor(swipe):
+		api('out', "swipe janitor")
+	

@@ -1,9 +1,15 @@
 extends ARMain
 
 var car_speed = 2
-var bullet = 0
+var car
+
+enum Details{
+	wheel,
+	janitor,
+}
 
 func start() -> void:
+	car = get_ar_element("Car")
 	api("connect_to_swp_app", {
 		"target_node": self,
 		"on_message": "on_message",
@@ -14,7 +20,12 @@ func start() -> void:
 
 func on_message(message):
 	if message['type'] == 'choise':
-		bullet = message['bullet']
+		var bullet = message['bullet']
+		var swipe = message['swipe']
+		if bullet == Details.wheel:
+			car.atack_wheel(swipe)
+		elif bullet == Details.janitor:
+			car.atack_janitor(swipe)
 
 
 func on_connected():

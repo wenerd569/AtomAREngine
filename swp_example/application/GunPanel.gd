@@ -1,5 +1,7 @@
 extends Panel
 
+onready var main: Application = $"/root/Main"
+
 var swipe_started = false
 var swipe_start
 var minimum_drag = 10
@@ -28,6 +30,7 @@ func update_butons():
 		if not b.used:
 			var detail = car.get_detail()
 			if detail == null:
+				b.disabled = true
 				return
 			b.init(self, detail, sprites[detail])
 
@@ -64,5 +67,11 @@ func swipe_complete(swipe):
 	var type = choise_button.type
 	un_choise()
 	update_butons()
-	
+	main.send_to_hud_app(
+		{
+			"type": "choise",
+			"bullet": type,
+			"swipe": swipe
+		}
+	)
 	

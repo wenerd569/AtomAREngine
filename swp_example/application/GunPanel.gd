@@ -1,91 +1,68 @@
 extends Panel
 
-onready var main: Application = $"/root/Main"
+var swipe_started = false
+var swipe_start
+var minimum_drag = 10
+var is_choise = false
+var choise_button
+onready var car = $Car
 
-var angle_z: float = 30.0
-var angle_x: float = 0.0
-var power: float = 30.0
+var buttons:Array
 
-var change_angle_z: bool = false
-var change_angle_x: bool = false
+var sprites = {
+	Car.Details.wheel: preload("res://sprites/bomb.png"),
+	Car.Details.janitor: preload("res://sprites/arrow.png")
+}
 
-
-func _ready() -> void:
-	update_angle_z()
-	update_angle_x()
-	update_power()
-
-
-func update_angle_z() -> void:
-	$AngleZValue.text = str(angle_z)
+func _ready():
+	car = $Car
+	print(car)
+	for ch in get_children():
+		if ch is SwipeButton:
+			buttons.append(ch)
+	update_butons()
 
 
-func update_angle_x() -> void:
-	$AngleXValue.text = str(angle_x)
-
-
-func update_power() -> void:
-	$PowerValue.text = str(power)
+func update_butons():
+	for b in buttons:
+		if not b.used:
+			var detail = car.get_detail()
+			if detail == null:
+				return
+			b.init(self, detail, sprites[detail])
 
 
 func _input(event):
-	if event is InputEventMouseMotion:
-		if change_angle_z:
-			var vector: Vector2 = event.position - ($AngleZButton.rect_position + $AngleZButton.rect_size / 2)
-			var relative_rotation: float = vector.angle_to(vector + event.relative)
-			
-			if (angle_z + relative_rotation) < 30.0:
-				relative_rotation = 30.0 - angle_z
-			elif (angle_z + relative_rotation) > 70.0:
-				relative_rotation = 70.0 - angle_z
-			
-			angle_z += relative_rotation
-			$AngleZButton.rect_rotation += rad2deg(relative_rotation)
-			update_angle_z()
-		if change_angle_x:
-			var vector: Vector2 = event.position - ($AngleXButton.rect_position + $AngleXButton.rect_size / 2)
-			var relative_rotation: float = vector.angle_to(vector + event.relative)
-			
-			if (angle_x + relative_rotation) < -60.0:
-				relative_rotation = -60.0 - angle_x
-			elif (angle_x + relative_rotation) > 60.0:
-				relative_rotation = 60.0 - angle_x
-			
-			angle_x += relative_rotation
-			$AngleXButton.rect_rotation += rad2deg(relative_rotation)
-			update_angle_x()
+	if event.is_action_pressed("click") and is_choise:
+		swipe_started = true
+		swipe_start = get_global_mouse_position()
+	if event.is_action_released("click") and swipe_started:
+		swipe_started = false
+		var swipe_end = get_global_mouse_position()
+		var swipe = swipe_end - swipe_start
+		if swipe.length() > minimum_drag:
+			swipe_complete(swipe)
 
 
-func _on_AngleZButton_button_down() -> void:
-	change_angle_z = true
-	change_angle_x = false
+func choise(button):
+	button.modulate = Color.aquamarine
+	is_choise = true
+	choise_button = button
+	for b in buttons:
+		if b != button:
+			b.disabled = true
+		
+func un_choise():
+	choise_button.modulate = Color.gray
+	is_choise = false
+	choise_button.after_use()
+	choise_button = null
+	for b in buttons:
+		b.disabled = false
 
-
-func _on_AngleXButton_button_down() -> void:
-	change_angle_z = false
-	change_angle_x = true
-
-
-func _on_PowerSlider_drag_started():
-	_on_angle_button_released()
-
-
-func _on_angle_button_released() -> void:
-	change_angle_z = false
-	change_angle_x = false
-
-
-func _on_PowerSlider_value_changed(value):
-	power = value
-	update_power()
-
-
-func _on_ShootButton_pressed():
-	main.send_to_hud_app(
-		{
-			"action": "shoot",
-			"angle_x": str(deg2rad(angle_x)),
-			"angle_z": str(deg2rad(angle_z)),
-			"power": str(power)
-		}
-	)
+func swipe_complete(swipe):
+	var type = choise_button.type
+	un_choise()
+	update_butons()
+	
+	

@@ -5,19 +5,26 @@ var is_live:bool = false
 
 var speed = 2.5
 var health_down: float = 25.0
+var sprite
+var time
 
-func init(car, start_coord ):
+
+func init(car, start_coord):
 	self.top =  start_coord.y
 	self.left =  start_coord.x
 	visibility = true
 	is_live = true
 	target = car
-	api("out", self)
-
+	sprite = get_ar_element("ARImage")
+	
 func update_process(delta: float) -> void:
 	if is_live:
+		time += delta
 		var dir:Vector2 = target. get_global_position( ) - self.get_global_position( )
 		dir = dir.normalized( )
+		if time > 0.2:
+			time = 0
+			sprite.frame = (sprite.frame + 1)%6
 		self.top += dir.y*speed+2
 		self.left += dir.x*speed
 		

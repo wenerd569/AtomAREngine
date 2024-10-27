@@ -48,6 +48,7 @@ func change_health(value: float) -> void:
 	health -= value
 	if health < 0:
 		health = 0
+		game_ower()
 	bar.current_percent = health / max_health * 100
 	
 func atack_wheel(swipe):
@@ -55,4 +56,8 @@ func atack_wheel(swipe):
 
 func atack_janitor(swipe):
 		api('out', "swipe janitor")
+
+func game_ower():
+	var label = get_ar_element("Main/ARLabel")
+	label.visible = true
 	

@@ -1,24 +1,23 @@
 extends ARGroup
 
-var zombie_prefab
 var zombies:Array
 var car
 
 var rng = RandomNumberGenerator.new()
 
 func start():
+	zombies.append(get_ar_element("Zombie0") )
+	zombies.append(get_ar_element("Zombie1") )
+	zombies.append(get_ar_element("Zombie2") )
+	zombies.append(get_ar_element("Zombie3") )
+	zombies.append(get_ar_element("Zombie4") )
+	api("out",  zombies[0])
 	car =  get_ar_element("Main/Car")
-	zombie_prefab = get_ar_element("Main/Zombies/Zombie")
-	create_zombie()
-	create_zombie()
-	create_zombie()
-	create_zombie()
+	spawn_zombies()
 
-
-func create_zombie():
-	var new_zombie = zombie_prefab.duplicate_ar_element("Main/Zombies")
-	rng.randomize()
-	var start =  Vector2(rng.randf_range(100, 1700), rng.randf_range(100, 700))
-
-	new_zombie.init(car,  start)
-	zombies.append(new_zombie)
+func spawn_zombies():
+	for z in zombies:
+		if not z.is_live:
+			rng.randomize()
+			var start =  Vector2(rng.randf_range(100, 1700), rng.randf_range(100, 700))
+			z.init(car,  start)

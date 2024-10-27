@@ -64,23 +64,27 @@
 					],
 					[
 						"top",
-						6.153168
+						-11.074032
 					],
 					[
 						"left",
-						444.726746
+						332.711304
 					],
 					[
 						"width",
-						925.001038
+						1069
 					],
 					[
 						"height",
-						197
+						397
 					],
 					[
 						"anchors",
 						16
+					],
+					[
+						"visibility",
+						false
 					],
 					[
 						"self_paint",
@@ -88,7 +92,7 @@
 					],
 					[
 						"text",
-						""
+						"Game ower"
 					],
 					[
 						"font_size",
@@ -136,7 +140,7 @@
 						"properties": [
 							[
 								"name",
-								"Zombie"
+								"Zombie0"
 							],
 							[
 								"collapsed_in_tree",
@@ -150,11 +154,11 @@
 							],
 							[
 								"top",
-								100.608719
+								550.991821
 							],
 							[
 								"left",
-								-137.064255
+								500.42926
 							],
 							[
 								"width",
@@ -170,7 +174,7 @@
 							],
 							[
 								"self_paint",
-								"ffffc2d5"
+								"00ffc2d5"
 							],
 							[
 								"ar_script",
@@ -180,6 +184,471 @@
 								"shape",
 								0
 							]
+						],
+						"children": [
+							{
+								"class": "ARImage",
+								"properties": [
+									[
+										"name",
+										"ARImage"
+									],
+									[
+										"collapsed_in_tree",
+										false
+									],
+									[
+										"collapsed_in_tree_flags",
+										{
+											"is_visible": false
+										}
+									],
+									[
+										"width",
+										90
+									],
+									[
+										"height",
+										135
+									],
+									[
+										"anchors",
+										16
+									],
+									[
+										"image",
+										"images/zombiewalk1.png"
+									],
+									[
+										"h_frames",
+										6
+									],
+									[
+										"frame",
+										1
+									],
+									[
+										"frame_coord",
+										"(1, 0)"
+									]
+								]
+							}
+						]
+					},
+					{
+						"class": "AROverlap",
+						"properties": [
+							[
+								"name",
+								"Zombie1"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								646.153442
+							],
+							[
+								"left",
+								1514.871826
+							],
+							[
+								"width",
+								89.906723
+							],
+							[
+								"height",
+								136.29686
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"self_paint",
+								"00ffc2d5"
+							],
+							[
+								"ar_script",
+								"scripts/Zombie.arscript"
+							],
+							[
+								"shape",
+								0
+							]
+						],
+						"children": [
+							{
+								"class": "ARImage",
+								"properties": [
+									[
+										"name",
+										"ARImage"
+									],
+									[
+										"collapsed_in_tree",
+										false
+									],
+									[
+										"collapsed_in_tree_flags",
+										{
+											"is_visible": false
+										}
+									],
+									[
+										"width",
+										90
+									],
+									[
+										"height",
+										135
+									],
+									[
+										"anchors",
+										16
+									],
+									[
+										"image",
+										"images/zombiewalk1.png"
+									],
+									[
+										"h_frames",
+										6
+									],
+									[
+										"frame",
+										1
+									],
+									[
+										"frame_coord",
+										"(1, 0)"
+									]
+								]
+							}
+						]
+					},
+					{
+						"class": "AROverlap",
+						"properties": [
+							[
+								"name",
+								"Zombie2"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								450.063507
+							],
+							[
+								"left",
+								1413.908081
+							],
+							[
+								"width",
+								89.906723
+							],
+							[
+								"height",
+								136.29686
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"self_paint",
+								"00ffc2d5"
+							],
+							[
+								"ar_script",
+								"scripts/Zombie.arscript"
+							],
+							[
+								"shape",
+								0
+							]
+						],
+						"children": [
+							{
+								"class": "ARImage",
+								"properties": [
+									[
+										"name",
+										"ARImage"
+									],
+									[
+										"collapsed_in_tree",
+										false
+									],
+									[
+										"collapsed_in_tree_flags",
+										{
+											"is_visible": false
+										}
+									],
+									[
+										"width",
+										90
+									],
+									[
+										"height",
+										135
+									],
+									[
+										"anchors",
+										16
+									],
+									[
+										"image",
+										"images/zombiewalk1.png"
+									],
+									[
+										"h_frames",
+										6
+									],
+									[
+										"frame",
+										1
+									],
+									[
+										"frame_coord",
+										"(1, 0)"
+									]
+								]
+							}
+						]
+					},
+					{
+						"class": "AROverlap",
+						"properties": [
+							[
+								"name",
+								"Zombie3"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								655.765625
+							],
+							[
+								"left",
+								844.666809
+							],
+							[
+								"width",
+								89.906723
+							],
+							[
+								"height",
+								136.29686
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"self_paint",
+								"00ffc2d5"
+							],
+							[
+								"ar_script",
+								"scripts/Zombie.arscript"
+							],
+							[
+								"shape",
+								0
+							]
+						],
+						"children": [
+							{
+								"class": "ARImage",
+								"properties": [
+									[
+										"name",
+										"ARImage"
+									],
+									[
+										"collapsed_in_tree",
+										false
+									],
+									[
+										"collapsed_in_tree_flags",
+										{
+											"is_visible": false
+										}
+									],
+									[
+										"top",
+										1.922461
+									],
+									[
+										"left",
+										-0.000044
+									],
+									[
+										"width",
+										90
+									],
+									[
+										"height",
+										135
+									],
+									[
+										"anchors",
+										16
+									],
+									[
+										"image",
+										"images/zombiewalk1.png"
+									],
+									[
+										"h_frames",
+										6
+									],
+									[
+										"frame",
+										1
+									],
+									[
+										"frame_coord",
+										"(1, 0)"
+									]
+								]
+							}
+						]
+					},
+					{
+						"class": "AROverlap",
+						"properties": [
+							[
+								"name",
+								"Zombie4"
+							],
+							[
+								"collapsed_in_tree",
+								false
+							],
+							[
+								"collapsed_in_tree_flags",
+								{
+									"is_visible": false
+								}
+							],
+							[
+								"top",
+								580.789978
+							],
+							[
+								"left",
+								1120.633301
+							],
+							[
+								"width",
+								89.906723
+							],
+							[
+								"height",
+								136.29686
+							],
+							[
+								"anchors",
+								16
+							],
+							[
+								"self_paint",
+								"00ffc2d5"
+							],
+							[
+								"ar_script",
+								"scripts/Zombie.arscript"
+							],
+							[
+								"shape",
+								0
+							]
+						],
+						"children": [
+							{
+								"class": "ARImage",
+								"properties": [
+									[
+										"name",
+										"ARImage"
+									],
+									[
+										"collapsed_in_tree",
+										false
+									],
+									[
+										"collapsed_in_tree_flags",
+										{
+											"is_visible": false
+										}
+									],
+									[
+										"top",
+										-0.984336
+									],
+									[
+										"left",
+										-0.030537
+									],
+									[
+										"width",
+										90
+									],
+									[
+										"height",
+										135
+									],
+									[
+										"anchors",
+										16
+									],
+									[
+										"image",
+										"images/zombiewalk1.png"
+									],
+									[
+										"h_frames",
+										6
+									],
+									[
+										"frame",
+										1
+									],
+									[
+										"frame_coord",
+										"(1, 0)"
+									]
+								]
+							}
 						]
 					}
 				]
@@ -254,11 +723,11 @@
 							],
 							[
 								"top",
-								-105.234192
+								26.048431
 							],
 							[
 								"left",
-								-88.531921
+								-1.003906
 							],
 							[
 								"width",
@@ -301,7 +770,7 @@
 							],
 							[
 								"left",
-								-64
+								23.528015
 							],
 							[
 								"width",

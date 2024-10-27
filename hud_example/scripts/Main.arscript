@@ -9,24 +9,23 @@ enum Details{
 }
 
 func start() -> void:
-	car = get_ar_element("Car")
-	api("connect_to_swp_app", {
-		"target_node": self,
-		"on_message": "on_message",
-		"on_error": "on_error",
-		"on_connected": "on_connected",
-		"on_disconnected": "on_disconnected",
-	})
+  car = get_ar_element("Car")
+  api("connect_to_swp_app", {
+    "target_node": self,
+    "on_message": "on_message",
+    "on_error": "on_error",
+    "on_connected": "on_connected",
+    "on_disconnected": "on_disconnected",
+  })
 
 func on_message(message):
-	if message['type'] == 'choise':
-		var bullet = message['bullet']
-		var swipe = message['swipe']
-		if bullet == Details.wheel:
-			car.atack_wheel(swipe)
-		elif bullet == Details.janitor:
-			car.atack_janitor(swipe)
-
+  if message['type'] == 'choise':
+    var bullet = message['bullet']
+    var swipe = message['swipe']
+    if bullet == Details.wheel:
+      car.atack_wheel(swipe)
+    elif bullet == Details.janitor:
+      car.atack_janitor(swipe)
 
 func on_connected():
 	api("out", "HUD connected to SWP!")

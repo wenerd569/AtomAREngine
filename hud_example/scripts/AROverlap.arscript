@@ -59,10 +59,18 @@ func change_health(value: float) -> void:
 	bar.current_percent = health / max_health * 100
 	
 func atack_wheel(swipe):
-	api('out', "swipe wheel")
+  api('out', "swipe wheel")
+  var wheel = get_ar_element("Main/Items/Wheel")
+  wheel.top = self.top
+  wheel.left = self.left
+  wheel.move(swipe)
 
 func atack_janitor(swipe):
-		api('out', "swipe janitor")
+  api('out', "swipe janitor")
+  var janitor = get_ar_element("Main/Items/Wheel")
+  janitor.top = self.top
+  janitor.left = self.left
+  janitor.move(swipe)
 
 func game_ower():
 	var label = get_ar_element("Main/ARLabel")

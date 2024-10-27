@@ -1,73 +1,30 @@
-extends AROverlap
+extends ARGroup
 
-var target
-var is_live:bool = true
+var zombies:Array
+var car
+var time = 0
 
-var health: float = 100.0
-var max_health: float = 100.0
-var bar: ARProgressBar
+var rng = RandomNumberGenerator.new()
 
-var fps: float = 5
-var frame_time: float = 0
-var sprite: ARImage
+func start():
+	zombies.append(get_ar_element("Zombie0") )
+	zombies.append(get_ar_element("Zombie1") )
+	zombies.append(get_ar_element("Zombie2") )
+	zombies.append(get_ar_element("Zombie3") )
+	zombies.append(get_ar_element("Zombie4") )
+	car =  get_ar_element("Main/Car")
+	spawn_zombies()
 
-var speed = 0.2
-
-var speed_up_time = 0;
-
-
-func start() -> void:
-	bar = get_ar_element("ARProgressBar")
-	bar.current_percent = health / max_health * 100
-	
-	sprite = get_ar_element("ARImage")
-
-func init(car, start_coord ):
-	self.top =  start_coord.y
-	self.left =  start_coord.x
-	visibility = true
-	is_live = true
-	target = car
-	#api("out", self)
+func spawn_zombies():
+	for z in zombies:
+		if not z.is_live:
+			rng.randomize()
+			var start =  Vector2(rng.randf_range(100, 1700), rng.randf_range(100, 700))
+			z.init(car,  start, rng.randf_range(0.2, 0.3))
 
 
 func update_process(delta: float) -> void:
-	if is_live:
-		speed_up_time -= delta
-		if speed_up_time<=0:
-			speed = 0.2
-		if frame_time >= 1.0 / fps:
-			var frame_num: int = sprite.frame_coord.x
-			frame_num += 1
-			frame_time = 0.0
-			sprite.frame_coord = Vector2(frame_num, 0)
-		frame_time += delta
-
-
-func change_health(value: float) -> void:
-	health -= value
-	speed += 0.3
-	speed_up_time = 2
-	if health < 0:
-		health = 0
-		game_ower()
-	bar.current_percent = health / max_health * 100
-	
-func atack_wheel(swipe):
-  api('out', "swipe wheel")
-  var wheel = get_ar_element("Main/Items/Wheel")
-  wheel.top = self.top
-  wheel.left = self.left
-  wheel.move(swipe)
-
-func atack_janitor(swipe):
-  api('out', "swipe janitor")
-  var janitor = get_ar_element("Main/Items/Janitor")
-  janitor.top = self.top
-  janitor.left = self.left
-  janitor.move(swipe)
-
-func game_ower():
-	var label = get_ar_element("Main/ARLabel")
-	label.visible = true
-	
+	time += delta
+	if time > 20:
+		time = 0
+		spawn_zombies()

@@ -1,4 +1,73 @@
-extends ARFillRect
+extends AROverlap
+
+var target
+var is_live:bool = true
+
+var health: float = 100.0
+var max_health: float = 100.0
+var bar: ARProgressBar
+
+var fps: float = 5
+var frame_time: float = 0
+var sprite: ARImage
+
+var speed = 0.2
+
+var speed_up_time = 0;
 
 
-var speed:float = 1
+func start() -> void:
+	bar = get_ar_element("ARProgressBar")
+	bar.current_percent = health / max_health * 100
+	
+	sprite = get_ar_element("ARImage")
+
+func init(car, start_coord ):
+	self.top =  start_coord.y
+	self.left =  start_coord.x
+	visibility = true
+	is_live = true
+	target = car
+	#api("out", self)
+
+
+func update_process(delta: float) -> void:
+	if is_live:
+		speed_up_time -= delta
+		if speed_up_time<=0:
+			speed = 0.2
+		if frame_time >= 1.0 / fps:
+			var frame_num: int = sprite.frame_coord.x
+			frame_num += 1
+			frame_time = 0.0
+			sprite.frame_coord = Vector2(frame_num, 0)
+		frame_time += delta
+
+
+func change_health(value: float) -> void:
+	health -= value
+	speed += 0.3
+	speed_up_time = 2
+	if health < 0:
+		health = 0
+		game_ower()
+	bar.current_percent = health / max_health * 100
+	
+func atack_wheel(swipe):
+  api('out', "swipe wheel")
+  var wheel = get_ar_element("Main/Items/Wheel")
+  wheel.top = self.top
+  wheel.left = self.left
+  wheel.move(swipe)
+
+func atack_janitor(swipe):
+  api('out', "swipe janitor")
+  var janitor = get_ar_element("Main/Items/Janitor")
+  janitor.top = self.top
+  janitor.left = self.left
+  janitor.move(swipe)
+
+func game_ower():
+	var label = get_ar_element("Main/ARLabel")
+	label.visible = true
+	

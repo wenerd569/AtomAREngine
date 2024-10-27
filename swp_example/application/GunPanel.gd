@@ -13,7 +13,8 @@ var buttons:Array
 
 var sprites = {
 	Car.Details.wheel: preload("res://sprites/bomb.png"),
-	Car.Details.janitor: preload("res://sprites/arrow.png")
+	Car.Details.janitor: preload("res://sprites/arrow.png"),
+	Car.Details.tree: preload("res://sprites/elka.png")
 }
 
 func _ready():

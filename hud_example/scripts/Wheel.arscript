@@ -4,15 +4,26 @@ var dir:Vector2 = Vector2(0, 0)
 var is_live = false
 var speed:float = 2.0
 
+var fly_time = 0
+
+
 func move(swipe):
+	swipe = swipe.normalized() 
 	dir = swipe
 	api("out", dir)
 	is_live = true
+	fly_time = 3.5
 	
 func update_process(delta: float) -> void:
 	if  is_live:
-		self.top = self.top - dir.x*speed
-		self.left = self.left + dir.y*speed
+		fly_time -= delta
+		if fly_time < 0:
+			is_live = false
+			self.width = 200
+			self.height = 200
+		else:
+			self.top = self.top + dir.y*speed
+			self.left = self.left - dir.x*speed
 
 func overlap_start(ar_element: AROverlap) -> void:
 	if  is_live:

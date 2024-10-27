@@ -3,10 +3,13 @@ extends ARMain
 var car_speed = 2
 var car
 
+
 enum Details{
 	wheel,
 	janitor,
+	tree
 }
+
 
 func start() -> void:
   car = get_ar_element("Car")

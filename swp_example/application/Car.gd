@@ -4,6 +4,7 @@ extends Node2D
 enum Details{
 	wheel,
 	janitor,
+	tree
 }
 
 var details: Array

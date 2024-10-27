@@ -696,7 +696,7 @@
 					],
 					[
 						"ar_script",
-						"scripts/AROverlap.arscript"
+						"scripts/Car.arscript"
 					],
 					[
 						"shape",
@@ -723,11 +723,11 @@
 							],
 							[
 								"top",
-								-105.234192
+								26.048401
 							],
 							[
 								"left",
-								-88.531921
+								-1.003906
 							],
 							[
 								"width",
@@ -770,7 +770,7 @@
 							],
 							[
 								"left",
-								-64
+								23.528015
 							],
 							[
 								"width",

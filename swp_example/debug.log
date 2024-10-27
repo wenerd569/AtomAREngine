@@ -1,104 +1,1055 @@
 Godot Engine v3.5.stable.official.991bb6ac7 - https://godotengine.org
 OpenGL ES 2.0 Renderer: Intel(R) Iris(R) Xe Graphics
  
+Car:[Node2D:1301]
 [System] Connect to HUD App from SWP App
-[System] Connected to Builder!
-{data:3714496089, message_type:ping}
-{data:Null, message_type:apps_connected}
-[System] App connected.
 input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:193.499985, y:274.499969}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:262.499969, y:239.999985}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:298.499969, y:227.999985}
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:338.999969, y:220.499985}
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:443.999969, y:238.499985}
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:515.999939, y:278.999969}
-input_type: screen_swipe, state: down
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:602.999939, y:368.999969}
-input_type: screen_swipe, state: down
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:632.999939, y:409.499969}
-input_type: screen_swipe, state: down
-input_type: screen_swipe, state: right
-input_type: screen_touch_position, state: {x:644.999939, y:428.999969}
-input_type: screen_touch_position, state: {x:652.499939, y:443.999969}
-input_type: screen_touch_position, state: {x:655.499939, y:457.499969}
-input_type: screen_touch_position, state: {x:647.999939, y:562.499939}
-input_type: screen_swipe, state: down
-input_type: screen_touch_position, state: {x:625.499939, y:706.499939}
-input_type: screen_swipe, state: down
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:595.499939, y:823.499939}
-input_type: screen_swipe, state: down
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:553.499939, y:832.499939}
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:536.999939, y:832.499939}
-input_type: screen_touch_position, state: {x:515.999939, y:832.499939}
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:491.999969, y:830.999939}
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:473.999969, y:826.499939}
-input_type: screen_touch_position, state: {x:413.999969, y:772.499939}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:334.499969, y:679.499939}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:277.499969, y:599.999939}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:224.999985, y:526.499939}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:200.999985, y:485.999969}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:172.499985, y:434.999969}
-input_type: screen_swipe, state: up
-input_type: screen_swipe, state: left
-input_type: screen_touch_position, state: {x:155.999985, y:407.999969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:145.499985, y:376.499969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:130.499985, y:314.999969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:128.999985, y:281.999969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:130.499985, y:266.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:329.999969, y:863.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:340.499969, y:826.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:361.499969, y:752.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:367.499969, y:721.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:385.499969, y:652.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:401.999969, y:568.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:418.499969, y:515.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:454.499969, y:397.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:476.999969, y:335.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:496.499969, y:278.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: True
-input_type: screen_touch_position, state: {x:1201.499878, y:383.999969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:1202.999878, y:317.999969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:1202.999878, y:280.499969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:1204.499878, y:257.999969}
-input_type: screen_swipe, state: up
-input_type: screen_touch_position, state: {x:1205.999878, y:239.999985}
-input_type: screen_touch_position, state: {x:1211.999878, y:232.499985}
-input_type: screen_touch_position, state: {x:1214.999878, y:224.999985}
-input_type: screen_touch_position, state: {x:1214.999878, y:221.999985}
-input_type: screen_touch_position, state: {x:1214.999878, y:209.999985}
-input_type: screen_touch_position, state: {x:1213.499878, y:202.499985}
-input_type: screen_touch_position, state: {x:1213.499878, y:196.499985}
-input_type: screen_touch_position, state: {x:1213.499878, y:193.499985}
-input_type: screen_touch_position, state: {x:1211.999878, y:188.999985}
-input_type: screen_touch_position, state: {x:1211.999878, y:182.999985}
-input_type: screen_touch_position, state: {x:1211.999878, y:179.999985}
-input_type: screen_touch_position, state: {x:1211.999878, y:175.499985}
-input_type: screen_touch_position, state: {x:1211.999878, y:173.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:482.999969, y:1022.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:503.999969, y:974.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:532.499939, y:904.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:598.499939, y:758.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:661.499939, y:610.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:694.499939, y:535.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:758.999939, y:392.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:788.999939, y:322.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:841.499939, y:205.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:883.499939, y:122.999992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:901.499939, y:94.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:928.499939, y:59.999996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:935.999939, y:52.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:941.999939, y:46.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:941.999939, y:44.999996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
 input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:290.999969, y:884.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:335.999969, y:815.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:404.999969, y:691.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:433.499969, y:632.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:493.499969, y:506.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:554.999939, y:388.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:589.499939, y:328.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:664.499939, y:211.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:700.499939, y:154.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:766.499939, y:67.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:788.999939, y:37.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:815.999939, y:1.5}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:827.999939, y:-16.499998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:833.999939, y:-23.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:842.999939, y:-37.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:847.499939, y:-44.999996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:859.499939, y:-64.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:871.499939, y:-79.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:485.999969, y:893.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:524.999939, y:811.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:556.499939, y:755.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:620.999939, y:640.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:659.999939, y:586.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:734.999939, y:479.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:806.999939, y:382.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:836.999939, y:334.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:886.499939, y:256.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:904.499939, y:224.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:932.999939, y:179.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:947.999939, y:157.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:955.499939, y:149.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:965.999939, y:139.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:971.999939, y:134.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:982.499939, y:124.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:326.999969, y:911.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:434.999969, y:752.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:506.999969, y:610.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:538.499939, y:547.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:593.999939, y:433.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:616.499939, y:392.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:661.499939, y:323.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:689.999939, y:293.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:739.499939, y:236.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:773.999939, y:199.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:782.999939, y:185.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:793.499939, y:169.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:797.999939, y:164.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:799.499939, y:160.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:784.499939, y:1010.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:778.499939, y:994.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:770.999939, y:977.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:761.999939, y:956.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:752.999939, y:938.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:749.999939, y:928.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:739.499939, y:883.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:728.999939, y:835.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:706.499939, y:704.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: left
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:695.999939, y:640.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:673.499939, y:505.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: left
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:647.999939, y:382.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: left
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:629.999939, y:263.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:620.999939, y:208.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:616.499939, y:154.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:604.499939, y:67.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:595.499939, y:-20.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:590.999939, y:-40.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:770.999939, y:934.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:788.999939, y:847.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:827.999939, y:692.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:878.999939, y:533.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:911.999939, y:451.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:982.499939, y:290.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1021.499939, y:221.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1087.499878, y:116.999992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1136.999878, y:50.999996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1159.499878, y:23.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1186.499878, y:-4.5}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1198.499878, y:-14.999999}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1208.999878, y:-23.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1213.499878, y:-26.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:644.999939, y:979.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:703.499939, y:875.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:731.999939, y:827.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:787.499939, y:734.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:818.999939, y:689.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:887.999939, y:598.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:946.499939, y:523.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:968.999939, y:494.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:992.999939, y:463.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:998.999939, y:455.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1001.999939, y:449.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1006.499939, y:445.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1006.499939, y:443.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1009.499939, y:440.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1010.999939, y:437.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1016.999939, y:433.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1018.499939, y:428.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: True
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:703.499939, y:812.999939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:754.499939, y:721.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:776.999939, y:682.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:817.499939, y:589.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:841.499939, y:541.499939}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:887.999939, y:436.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:940.499939, y:322.499969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:967.499939, y:266.999969}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1010.999939, y:181.499985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: right
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1027.499878, y:146.999985}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1045.499878, y:106.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1055.999878, y:83.999992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_swipe, state: up
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1060.499878, y:74.999992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1066.499878, y:64.499992}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1069.499878, y:61.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1075.499878, y:52.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1078.499878, y:46.499996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1085.999878, y:35.999996}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1090.499878, y:29.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch_position, state: {x:1091.999878, y:26.999998}
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED
+input_type: screen_touch, state: False
+ERROR: Condition "!is_connected_to_host()" is true. Returned: FAILED
+   at: put_packet (modules/websocket/wsl_peer.cpp:243) - Condition "!is_connected_to_host()" is true. Returned: FAILED

@@ -21,7 +21,6 @@ func on_message(message):
 	$Messages.text += '[Message]: '+message+'\n'
 
 
-func on_connected():
 	$Messages.text += '[Event]: Connected\n'
 	api('send_to_hud_app', {
 		'type' : 'text',

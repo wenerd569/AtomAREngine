@@ -11,7 +11,6 @@ func start():
 	zombies.append(get_ar_element("Zombie2") )
 	zombies.append(get_ar_element("Zombie3") )
 	zombies.append(get_ar_element("Zombie4") )
-	api("out",  zombies[0])
 	car =  get_ar_element("Main/Car")
 	spawn_zombies()
 
@@ -20,4 +19,4 @@ func spawn_zombies():
 		if not z.is_live:
 			rng.randomize()
 			var start =  Vector2(rng.randf_range(100, 1700), rng.randf_range(100, 700))
-			z.init(car,  start)
+			z.init(car,  start, rng.randf_range(0.2, 0.3))

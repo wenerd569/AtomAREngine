@@ -3,33 +3,48 @@ extends AROverlap
 var target
 var is_live:bool = false
 
-var speed = 2.5
+var speed
 var health_down: float = 25.0
 var sprite
-var time
+var time = 0
 
+var tauch_car = false
+var tauch_time = 0
 
-func init(car, start_coord):
+func init(car, start_coord, speed):
+	self.speed = speed
 	self.top =  start_coord.y
 	self.left =  start_coord.x
-	visibility = true
+	self.visibility = true
 	is_live = true
 	target = car
 	sprite = get_ar_element("ARImage")
 	
 func update_process(delta: float) -> void:
+	damage_car(delta)
 	if is_live:
 		time += delta
 		var dir:Vector2 = target. get_global_position( ) - self.get_global_position( )
 		dir = dir.normalized( )
-		if time > 0.2:
+		if time > 0.5:
 			time = 0
 			sprite.frame = (sprite.frame + 1)%6
-		self.top += dir.y*speed+2
+			api("out", sprite)	
+		self.top += dir.y*speed+target.speed
 		self.left += dir.x*speed
-		
+
 func overlap_start(ar_element: AROverlap) -> void:
 	if ar_element.name == "Car":
-		api("out", "over car")
-		ar_element.change_health(health_down)
-		#delete()
+		tauch_car = true
+
+func overlap_end(ar_element: AROverlap) -> void:
+	if ar_element.name == "Car":
+		tauch_car = false
+
+
+func damage_car(delta):
+	if tauch_car:
+		tauch_time += delta
+		if tauch_time > 1.5:
+			tauch_time = 0			
+			target.change_health(health_down)

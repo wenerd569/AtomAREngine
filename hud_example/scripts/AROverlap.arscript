@@ -3,8 +3,15 @@ extends AROverlap
 var target
 var is_live:bool = false
 
-var speed = 2.5
-var health_down: float = 25.0
+var health: float = 100.0
+var max_health: float = 100.0
+var bar: ARProgressBar
+
+var speed = 2
+
+func start() -> void:
+	bar = get_ar_element("ARProgressBar")
+	bar.current_percent = health / max_health * 100
 
 func init(car, start_coord ):
 	self.top =  start_coord.y
@@ -20,9 +27,9 @@ func update_process(delta: float) -> void:
 		dir = dir.normalized( )
 		self.top += dir.y*speed+2
 		self.left += dir.x*speed
-		
-func overlap_start(ar_element: AROverlap) -> void:
-	if ar_element.name == "Car":
-		api("out", "over car")
-		ar_element.change_health(health_down)
-		#delete()
+
+func change_health(value: float) -> void:
+	health -= value
+	if health < 0:
+		health = 0
+	bar.current_percent = health / max_health * 100

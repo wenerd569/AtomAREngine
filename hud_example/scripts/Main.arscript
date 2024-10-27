@@ -1,6 +1,7 @@
 extends ARMain
 
-var car_speed = 10
+var car_speed = 2
+var bullet = 0
 
 func start() -> void:
 	api("connect_to_swp_app", {
@@ -12,7 +13,9 @@ func start() -> void:
 	})
 
 func on_message(message):
-	pass
+	if message['type'] == 'choise':
+		bullet = message['bullet']
+
 
 func on_connected():
 	api("out", "HUD connected to SWP!")
